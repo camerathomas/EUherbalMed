@@ -1,5 +1,4 @@
 import json
-import os
 from pathlib import Path
 
 import pandas as pd
@@ -30,11 +29,8 @@ def load_records() -> list[dict]:
 
 
 records = load_records()
-
-# Zet de lijst om naar een DataFrame voor makkelijke filtering en weergave
 df = pd.DataFrame(records)
 
-# Zorg dat alle verwachte kolommen bestaan, ook als ze leeg zijn
 verwachte_kolommen = [
     "latin_name",
     "dutch_common_name",
@@ -55,7 +51,6 @@ for kolom in verwachte_kolommen:
     if kolom not in df.columns:
         df[kolom] = None
 
-# therapeutic_area is een lijst; maak er een leesbare string van voor weergave
 df["therapeutic_area_str"] = df["therapeutic_area"].apply(
     lambda x: ", ".join(x) if isinstance(x, list) else (x or "")
 )
@@ -71,18 +66,10 @@ zoekterm = st.sidebar.text_input(
 )
 
 statussen = sorted([s for s in df["ema_status"].dropna().unique() if s])
-gekozen_status = st.sidebar.multiselect(
-    "EMA-status",
-    options=statussen,
-    default=statussen,
-)
+gekozen_status = st.sidebar.multiselect("EMA-status", options=statussen, default=statussen)
 
 resultaten = sorted([o for o in df["ema_outcome"].dropna().unique() if o])
-gekozen_resultaat = st.sidebar.multiselect(
-    "Beoordelingsresultaat",
-    options=resultaten,
-    default=resultaten,
-)
+gekozen_resultaat = st.sidebar.multiselect("Beoordelingsresultaat", options=resultaten, default=resultaten)
 
 alle_gebieden = sorted({
     gebied
@@ -90,11 +77,7 @@ alle_gebieden = sorted({
     if isinstance(gebieden, list)
     for gebied in gebieden
 })
-gekozen_gebieden = st.sidebar.multiselect(
-    "Therapeutisch gebied",
-    options=alle_gebieden,
-    default=[],
-)
+gekozen_gebieden = st.sidebar.multiselect("Therapeutisch gebied", options=alle_gebieden, default=[])
 
 # ---------------------------------------------------------------------------
 # Filteren
@@ -132,7 +115,6 @@ st.caption(
     f"Bron: EMA herbal medicines JSON · {len(filtered)} van {len(df)} records zichtbaar"
 )
 
-# Kolommen die we tonen
 toon_kolommen = [
     "latin_name",
     "dutch_common_name",
@@ -140,10 +122,8 @@ toon_kolommen = [
     "ema_status",
     "ema_outcome",
     "therapeutic_area_str",
-    "ema_url",
 ]
 
-# Hernoem voor de weergave
 kolomnamen = {
     "latin_name": "Latijnse naam",
     "dutch_common_name": "Nederlandse naam",
@@ -151,41 +131,67 @@ kolomnamen = {
     "ema_status": "EMA-status",
     "ema_outcome": "Resultaat",
     "therapeutic_area_str": "Therapeutisch gebied",
-    "ema_url": "EMA-link",
 }
 
 weergave = filtered[toon_kolommen].rename(columns=kolomnamen)
 
-st.dataframe(
-    weergave,
-    use_container_width=True,
-    hide_index=True,
-    column_config={
-        "EMA-link": st.column_config.LinkColumn(
-            "EMA-link",
-            display_text="openen",
-            validate="^https://.*",
-        ),
-        "EMA-status": st.column_config.TextColumn("EMA-status", width="medium"),
-        "Resultaat": st.column_config.TextColumn("Resultaat", width="medium"),
-    },
-)
+# Reset index zodat we de geselecteerde rij kunnen terugvinden
+weergave = weergave.reset_index(drop=True)
 
 # ---------------------------------------------------------------------------
-# Detailweergave per record
+# Tabel met rij-selectie
+# ---------------------------------------------------------------------------
+st.subheader("Klik op een rij om de details te zien")
+
+try:
+    selectie = st.dataframe(
+        weergave,
+        use_container_width=True,
+        hide_index=True,
+        on_select="rerun",
+        selection_mode="single-row",
+        column_config={
+            "EMA-status": st.column_config.TextColumn("EMA-status", width="medium"),
+            "Resultaat": st.column_config.TextColumn("Resultaat", width="medium"),
+        },
+    )
+    geselecteerde_rijen = selectie.selection.rows if hasattr(selectie, "selection") else []
+except TypeError:
+    # Fallback voor oudere Streamlit-versies zonder on_select
+    st.dataframe(
+        weergave,
+        use_container_width=True,
+        hide_index=True,
+        column_config={
+            "EMA-status": st.column_config.TextColumn("EMA-status", width="medium"),
+            "Resultaat": st.column_config.TextColumn("Resultaat", width="medium"),
+        },
+    )
+    geselecteerde_rijen = []
+
+# ---------------------------------------------------------------------------
+# Detailweergave
 # ---------------------------------------------------------------------------
 st.divider()
-st.subheader("Details bekijken")
+st.subheader("Details")
 
-if not filtered.empty:
+record = None
+
+if geselecteerde_rijen:
+    # Gebruiker klikte op een rij in de tabel
+    idx = geselecteerde_rijen[0]
+    record = filtered.iloc[idx].to_dict()
+elif not filtered.empty:
+    # Fallback: selectbox onderaan
     opties = filtered.apply(
         lambda r: f"{r['latin_name']} — {r['dutch_common_name'] or r['english_common_name'] or ''}",
         axis=1,
     ).tolist()
-    keuze = st.selectbox("Kies een plant", opties)
+    keuze = st.selectbox("Of kies een plant uit de lijst", opties)
     index = opties.index(keuze)
     record = filtered.iloc[index].to_dict()
 
+if record:
     col1, col2 = st.columns(2)
     with col1:
         st.markdown("**Botanische gegevens**")
@@ -202,7 +208,9 @@ if not filtered.empty:
         st.write(f"Resultaat: {record.get('ema_outcome', '') or '—'}")
         url = record.get("ema_url", "")
         if url:
-            st.markdown(f"[Open EMA-pagina]({url})")
+            st.markdown(f"[🔗 Open EMA-pagina]({url})")
+        else:
+            st.write("Geen EMA-link beschikbaar")
 
     st.markdown("**Nederlandse situatie (nog in te vullen)**")
     st.json({
