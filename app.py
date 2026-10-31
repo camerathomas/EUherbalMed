@@ -145,18 +145,61 @@ st.divider()
 
 
 # ---------------------------------------------------------------------------
-# Complete tabel
+# Complete tabel met selectievakjes
 # ---------------------------------------------------------------------------
 st.subheader("Complete tabel")
 
-st.dataframe(
-    df,
+# Voeg een tijdelijke kolom toe voor de selectie
+df_tabel = df.copy()
+df_tabel.insert(0, "Toon monografie", False)
+
+# Data editor met checkbox-kolom
+edited_df = st.data_editor(
+    df_tabel,
     use_container_width=True,
     hide_index=True,
+    column_config={
+        "Toon monografie": st.column_config.CheckboxColumn(
+            "Toon monografie",
+            help="Vink aan om de monografie van deze plant te tonen",
+            default=False,
+        )
+    },
+    disabled=[k for k in df_tabel.columns if k != "Toon monografie"],
 )
+
+# Bepaal welke planten zijn aangevinkt
+geselecteerd = edited_df[edited_df["Toon monografie"] == True]
 
 st.caption(f"{len(df)} planten getoond.")
 
+
+# ---------------------------------------------------------------------------
+# Monografie (voor de aangevinkte planten)
+# ---------------------------------------------------------------------------
+st.divider()
+st.subheader("Monografie")
+
+if geselecteerd.empty:
+    st.info("Vink een of meer planten aan in de tabel om de monografie te tonen.")
+else:
+    for _, rij in geselecteerd.iterrows():
+        st.markdown(f"### {rij.get('latin_name', 'Onbekend')}")
+        for kolom in df.columns:
+            waarde = rij[kolom]
+
+            if waarde is None:
+                continue
+            if isinstance(waarde, float) and pd.isna(waarde):
+                continue
+            if isinstance(waarde, str) and waarde.strip() == "":
+                continue
+
+            if isinstance(waarde, list):
+                waarde = ", ".join(str(w) for w in waarde)
+
+            st.markdown(f"**{kolom}:** {waarde}")
+        st.divider()
 
 # ---------------------------------------------------------------------------
 # Monografie
