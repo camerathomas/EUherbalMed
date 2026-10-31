@@ -1,10 +1,10 @@
 import streamlit as st
-import pandas as pd
 import json
+import pandas as pd
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
-# Paginaconfiguratie
+# Configuratie
 # ---------------------------------------------------------------------------
 st.set_page_config(
     page_title="Plantaardige geneesmiddelen",
@@ -12,12 +12,8 @@ st.set_page_config(
     layout="wide",
 )
 
-# ---------------------------------------------------------------------------
-# Bestandspaden
-# ---------------------------------------------------------------------------
 BASE_DIR = Path(__file__).parent
-PLANTEN_CSV = BASE_DIR / "planten_data.csv"
-INDICATIES_JSON = BASE_DIR / "planten_indicaties.json"
+PLANTEN_JSON = BASE_DIR / "planten_indicaties.json"
 WAAROM_MD = BASE_DIR / "waarom_deze_app.md"
 
 
@@ -25,20 +21,21 @@ WAAROM_MD = BASE_DIR / "waarom_deze_app.md"
 # Data laden
 # ---------------------------------------------------------------------------
 @st.cache_data
-def laad_planten_data() -> pd.DataFrame:
-    if PLANTEN_CSV.exists():
-        return pd.read_csv(PLANTEN_CSV)
-    st.error(f"Het bestand '{PLANTEN_CSV.name}' kon niet worden gevonden.")
-    return pd.DataFrame()
+def laad_planten() -> pd.DataFrame:
+    if not PLANTEN_JSON.exists():
+        st.error(f"Het bestand '{PLANTEN_JSON.name}' kon niet worden gevonden.")
+        return pd.DataFrame()
 
+    with open(PLANTEN_JSON, encoding="utf-8") as f:
+        payload = json.load(f)
 
-@st.cache_data
-def laad_indicaties() -> pd.DataFrame:
-    if INDICATIES_JSON.exists():
-        with open(INDICATIES_JSON, encoding="utf-8") as f:
-            return pd.DataFrame(json.load(f))
-    st.warning(f"Het bestand '{INDICATIES_JSON.name}' kon niet worden gevonden.")
-    return pd.DataFrame()
+    # Ondersteun zowel een lijst als een dict met "data"
+    if isinstance(payload, dict) and "data" in payload:
+        records = payload["data"]
+    else:
+        records = payload
+
+    return pd.DataFrame(records)
 
 
 @st.cache_data
@@ -48,35 +45,32 @@ def laad_waarom_tekst() -> str:
     return "De tekst 'waarom_deze_app.md' kon niet worden gevonden."
 
 
-df_planten = laad_planten_data()
-df_indicaties = laad_indicaties()
+df = laad_planten()
 waarom_tekst = laad_waarom_tekst()
 
-
-# ---------------------------------------------------------------------------
-# Samenvoegen
-# ---------------------------------------------------------------------------
-if not df_planten.empty and not df_indicaties.empty:
-    df_compleet = pd.merge(
-        df_planten,
-        df_indicaties,
-        on="Duitse_naam",
-        how="left",
-    )
-else:
-    df_compleet = df_planten.copy()
-
-# Zorg dat de nieuwe kolommen altijd bestaan
-for kolom in ["Indicatie", "EMA_status"]:
-    if kolom not in df_compleet.columns:
-        df_compleet[kolom] = None
+# Zorg dat de verwachte kolommen bestaan (ook als ze in de JSON ontbreken)
+verwachte_kolommen = [
+    "Duitse_naam",
+    "Nederlandse_naam",
+    "Categorie",
+    "Wirkstoff",
+    "Indicatie",
+    "EMA_status",
+    "Quelle",
+]
+for kolom in verwachte_kolommen:
+    if kolom not in df.columns:
+        df[kolom] = None
 
 
 # ---------------------------------------------------------------------------
 # UI: header en "Waarom deze app?"
 # ---------------------------------------------------------------------------
 st.title("🌿 Plantaardige geneesmiddelen")
-st.caption("Een overzicht van in Duitsland toegelaten plantaardige geneesmiddelen, met EMA-status en indicaties.")
+st.caption(
+    "Een overzicht van in Duitsland toegelaten plantaardige geneesmiddelen, "
+    "met EMA-status en indicaties."
+)
 
 if "toon_waarom" not in st.session_state:
     st.session_state.toon_waarom = False
@@ -100,21 +94,21 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
     categorieen = ["Alle"] + sorted(
-        df_compleet["Categorie"].dropna().unique().tolist()
-    ) if "Categorie" in df_compleet.columns else ["Alle"]
+        df["Categorie"].dropna().unique().tolist()
+    ) if "Categorie" in df.columns else ["Alle"]
     keuze_categorie = st.selectbox("Filter op categorie", categorieen)
 
 with col2:
     ema_opties = ["Alle"] + sorted(
-        df_compleet["EMA_status"].dropna().unique().tolist()
-    ) if "EMA_status" in df_compleet.columns else ["Alle"]
+        df["EMA_status"].dropna().unique().tolist()
+    ) if "EMA_status" in df.columns else ["Alle"]
     keuze_ema = st.selectbox("Filter op EMA-status", ema_opties)
 
 with col3:
     zoekterm = st.text_input("Zoek op naam (Duits of Nederlands)")
 
 # Filter toepassen
-df_filtered = df_compleet.copy()
+df_filtered = df.copy()
 
 if keuze_categorie != "Alle" and "Categorie" in df_filtered.columns:
     df_filtered = df_filtered[df_filtered["Categorie"] == keuze_categorie]
@@ -126,14 +120,15 @@ if zoekterm:
     mask = pd.Series(False, index=df_filtered.index)
     for kolom in ["Duitse_naam", "Nederlandse_naam"]:
         if kolom in df_filtered.columns:
-            mask |= df_filtered[kolom].astype(str).str.contains(zoekterm, case=False, na=False)
+            mask |= df_filtered[kolom].astype(str).str.contains(
+                zoekterm, case=False, na=False
+            )
     df_filtered = df_filtered[mask]
 
 
 # ---------------------------------------------------------------------------
 # UI: tabel
 # ---------------------------------------------------------------------------
-# Kies een zinvolle kolomvolgorde (alleen kolommen die bestaan)
 gewenste_kolommen = [
     "Duitse_naam",
     "Nederlandse_naam",
@@ -151,15 +146,15 @@ st.dataframe(
     hide_index=True,
 )
 
-st.caption(f"{len(df_filtered)} van {len(df_compleet)} planten getoond.")
+st.caption(f"{len(df_filtered)} van {len(df)} planten getoond.")
 
 
 # ---------------------------------------------------------------------------
 # UI: appendix (alleen Duitse planten zonder EMA-monografie)
 # ---------------------------------------------------------------------------
-if "EMA_status" in df_compleet.columns:
-    df_appendix = df_compleet[
-        df_compleet["EMA_status"].isna() | (df_compleet["EMA_status"] != "Ja")
+if "EMA_status" in df.columns:
+    df_appendix = df[
+        df["EMA_status"].isna() | (df["EMA_status"] != "Ja")
     ]
 
     if not df_appendix.empty:
