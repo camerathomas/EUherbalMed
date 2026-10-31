@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <title>EMA Herbal Medicines – overzicht</title>
+  <style>
+    :root {
+      --bg: #f7f8fa;
+      --card: #ffffff;
+      --border: #e2e5ea;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --accent: #2563eb;
+      --accent-soft: #dbeafe;
+      --warn: #b45309;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.4;
+    }
+    header {
+      padding: 24px 32px 8px;
+    }
+    h1 {
+      margin: 0 0 4px;
+      font-size: 1.4rem;
+    }
+    .subtitle {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+    .filters {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      padding: 0 32px 16px;
+      align-items: center;
+    }
+    .filters input, .filters select {
+      padding: 8px 10px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      background: var(--card);
+    }
+    .filters input[type="search"] { min-width: 260px; }
+    .count {
+      margin-left: auto;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+    .table-wrap {
+      padding: 0 32px 32px;
+      overflow-x: auto;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+      font-size: 0.88rem;
+    }
+    thead th {
+      background: #f1f5f9;
+      text-align: left;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { background: #e2e8f0; }
+    tbody td {
+      padding: 9px 12px;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    tbody tr:last-child td { border-bottom: none; }
+    tbody tr:hover { background: #f8fafc; }
+    .latin { font-style: italic; }
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 0.78rem;
+      background: var(--accent-soft);
+      color: var(--accent);
+      white-space: nowrap;
+    }
+    .badge.c { background: #fef3c7; color: var(--warn); }
+    .badge.d { background: #fee2e2; color: #b91c1c; }
+    .badge.p { background: #e0e7ff; color: #4338ca; }
+    .badge.empty { background: #f3f4f6; color: var(--muted); }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .empty-note { color: var(--muted); font-size: 0.8rem; }
+    @media (max-width: 720px) {
+      header, .filters, .table-wrap { padding-left: 14px; padding-right: 14px; }
+      .count { width: 100%; margin-left: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>EMA Herbal Medicines – overzicht</h1>
+    <div class="subtitle">
+      Bron: EMA herbal medicines JSON · {{ total }} records
+    </div>
+  </header>
+
+  <div class="filters">
+    <input type="search" id="search" placeholder="Zoek op Latijnse, Nederlandse of Engelse naam…">
+    <select id="status">
+      <option value="">Alle EMA-statussen</option>
+      {% for s in statuses %}
+        <option value="{{ s }}">{{ s }}</option>
+      {% endfor %}
+    </select>
+    <select id="outcome">
+      <option value="">Alle beoordelingsresultaten</option>
+      {% for o in outcomes %}
+        <option value="{{ o }}">{{ o }}</option>
+      {% endfor %}
+    </select>
+    <select id="area">
+      <option value="">Alle therapeutische gebieden</option>
+      {% for a in areas %}
+        <option value="{{ a }}">{{ a }}</option>
+      {% endfor %}
+    </select>
+    <span class="count" id="count"></span>
+  </div>
+
+  <div class="table-wrap">
+    <table id="table">
+      <thead>
+        <tr>
+          <th data-key="latin_name">Latijnse naam</th>
+          <th data-key="dutch_common_name">Nederlandse naam</th>
+          <th data-key="english_common_name">Engelse naam</th>
+          <th data-key="ema_status">EMA-status</th>
+          <th data-key="ema_outcome">Resultaat</th>
+          <th data-key="therapeutic_area">Therapeutisch gebied</th>
+          <th data-key="ema_url">Link</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+
+  <script>
+    const RECORDS = {{ records | tojson }};
+    const tbody = document.querySelector("#table tbody");
+    const countEl = document.getElementById("count");
+    const searchEl = document.getElementById("search");
+    const statusEl = document.getElementById("status");
+    const outcomeEl = document.getElementById("outcome");
+    const areaEl = document.getElementById("area");
+
+    let sortKey = "latin_name";
+    let sortAsc = true;
+    let filtered = [...RECORDS];
+
+    function badgeClass(status) {
+      if (!status) return "badge empty";
+      const c = status.charAt(0).toUpperCase();
+      if (c === "C") return "badge c";
+      if (c === "D") return "badge d";
+      if (c === "P") return "badge p";
+      return "badge";
+    }
+
+    function statusLabel(status) {
+      if (!status) return "geen status";
+      return status;
+    }
+
+    function matches(record) {
+      const q = searchEl.value.trim().toLowerCase();
+      if (q) {
+        const haystack = [
+          record.latin_name,
+          record.dutch_common_name,
+          record.english_common_name,
+          record.botanical_name
+        ].filter(Boolean).join(" ").toLowerCase();
+        if (!haystack.includes(q)) return false;
+      }
+      if (statusEl.value && record.ema_status !== statusEl.value) return false;
+      if (outcomeEl.value && record.ema_outcome !== outcomeEl.value) return false;
+      if (areaEl.value && !(record.therapeutic_area || []).includes(areaEl.value)) return false;
+      return true;
+    }
+
+    function sortRecords() {
+      filtered.sort((a, b) => {
+        let va = a[sortKey];
+        let vb = b[sortKey];
+        if (Array.isArray(va)) va = va.join(", ");
+        if (Array.isArray(vb)) vb = vb.join(", ");
+        va = (va || "").toString().toLowerCase();
+        vb = (vb || "").toString().toLowerCase();
+        if (va < vb) return sortAsc ? -1 : 1;
+        if (va > vb) return sortAsc ? 1 : -1;
+        return 0;
+      });
+    }
+
+    function render() {
+      filtered = RECORDS.filter(matches);
+      sortRecords();
+      tbody.innerHTML = "";
+      for (const r of filtered) {
+        const tr = document.createElement("tr");
+        const areas = (r.therapeutic_area || []).join(", ");
+        const url = r.ema_url || "";
+        tr.innerHTML = `
+          <td class="latin">${r.latin_name || ""}</td>
+          <td>${r.dutch_common_name || ""}</td>
+          <td>${r.english_common_name || ""}</td>
+          <td><span class="${badgeClass(r.ema_status)}">${statusLabel(r.ema_status)}</span></td>
+          <td>${r.ema_outcome || ""}</td>
+          <td>${areas}</td>
+          <td>${url ? `<a href="${url}" target="_blank" rel="noopener">EMA</a>` : '<span class="empty-note">—</span>'}</td>
+        `;
+        tbody.appendChild(tr);
+      }
+      countEl.textContent = `${filtered.length} van ${RECORDS.length} records`;
+    }
+
+    document.querySelectorAll("thead th").forEach(th => {
+      th.addEventListener("click", () => {
+        const key = th.dataset.key;
+        if (sortKey === key) sortAsc = !sortAsc;
+        else { sortKey = key; sortAsc = true; }
+        render();
+      });
+    });
+
+    [searchEl, statusEl, outcomeEl, areaEl].forEach(el => {
+      el.addEventListener("input", render);
+      el.addEventListener("change", render);
+    });
+
+    render();
+  </script>
+</body>
+</html>
