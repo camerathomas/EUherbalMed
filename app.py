@@ -59,7 +59,7 @@ df["therapeutic_area_str"] = df["therapeutic_area"].apply(
 
 
 # ---------------------------------------------------------------------------
-# Aanvulling: indicaties en EMA-status uit aparte JSON (alleen toevoegen)
+# Aanvulling: indicaties en EMA-status uit aparte JSON (veilig, zonder merge)
 # ---------------------------------------------------------------------------
 @st.cache_data
 def laad_indicaties() -> pd.DataFrame:
@@ -72,21 +72,32 @@ def laad_indicaties() -> pd.DataFrame:
 
 df_indicaties = laad_indicaties()
 
-if not df.empty and not df_indicaties.empty:
-    df = df.merge(
-        df_indicaties,
-        left_on="botanical_name",
-        right_on="botanical_name",
-        how="left",
-        suffixes=("", "_aanvulling"),
-    )
-    if "ema_status_aanvulling" in df.columns:
-        df["ema_status"] = df["ema_status"].fillna(df["ema_status_aanvulling"])
-        df = df.drop(columns=["ema_status_aanvulling"])
+# Voeg de kolommen Indicatie en EMA_status toe aan df, op basis van de Latijnse naam
+if not df_indicaties.empty and "Wirkstoff" in df_indicaties.columns:
+    # Hernoem voor de zekerheid naar een eenduidige sleutel
+    df_indicaties = df_indicaties.rename(columns={"Wirkstoff": "latin_key"})
+    df_indicaties["latin_key"] = df_indicaties["latin_key"].astype(str).str.strip().str.lower()
 
-for kolom in ["Indicatie", "EMA_status"]:
-    if kolom not in df.columns:
-        df[kolom] = None
+    # Zorg dat df een vergelijkbare sleutel heeft
+    if "latin_name" in df.columns:
+        df["latin_key"] = df["latin_name"].astype(str).str.strip().str.lower()
+    else:
+        df["latin_key"] = None
+
+    # Map van latin_key naar Indicatie en EMA_status
+    indicatie_map = dict(zip(df_indicaties["latin_key"], df_indicaties.get("Indicatie", [None] * len(df_indicaties))))
+    ema_map = dict(zip(df_indicaties["latin_key"], df_indicaties.get("EMA_status", [None] * len(df_indicaties))))
+
+    df["Indicatie"] = df["latin_key"].map(indicatie_map)
+    df["EMA_status"] = df["latin_key"].map(ema_map)
+
+    # Opruimen
+    df = df.drop(columns=["latin_key"])
+else:
+    if "Indicatie" not in df.columns:
+        df["Indicatie"] = None
+    if "EMA_status" not in df.columns:
+        df["EMA_status"] = None
 
 
 # ---------------------------------------------------------------------------
@@ -148,7 +159,7 @@ st.caption(f"{len(df)} planten getoond.")
 
 
 # ---------------------------------------------------------------------------
-# Monografie (per plant, als je die al had)
+# Monografie
 # ---------------------------------------------------------------------------
 st.divider()
 st.subheader("Monografie")
