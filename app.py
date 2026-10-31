@@ -164,6 +164,7 @@ st.dataframe(
         "EMA-link": st.column_config.LinkColumn(
             "EMA-link",
             display_text="openen",
+            validate="^https://.*",
         ),
         "EMA-status": st.column_config.TextColumn("EMA-status", width="medium"),
         "Resultaat": st.column_config.TextColumn("Resultaat", width="medium"),
