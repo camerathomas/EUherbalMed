@@ -145,46 +145,32 @@ st.divider()
 
 
 # ---------------------------------------------------------------------------
-# Complete tabel met selectievakjes
+# Complete tabel
 # ---------------------------------------------------------------------------
 st.subheader("Complete tabel")
 
-# Voeg een tijdelijke kolom toe voor de selectie
-df_tabel = df.copy()
-df_tabel.insert(0, "Toon monografie", False)
-
-# Data editor met checkbox-kolom
-edited_df = st.data_editor(
-    df_tabel,
+st.dataframe(
+    df,
     use_container_width=True,
     hide_index=True,
-    column_config={
-        "Toon monografie": st.column_config.CheckboxColumn(
-            "Toon monografie",
-            help="Vink aan om de monografie van deze plant te tonen",
-            default=False,
-        )
-    },
-    disabled=[k for k in df_tabel.columns if k != "Toon monografie"],
 )
-
-# Bepaal welke planten zijn aangevinkt
-geselecteerd = edited_df[edited_df["Toon monografie"] == True]
 
 st.caption(f"{len(df)} planten getoond.")
 
 
 # ---------------------------------------------------------------------------
-# Monografie (voor de aangevinkte planten)
+# Monografie (één plant via selectbox)
 # ---------------------------------------------------------------------------
 st.divider()
 st.subheader("Monografie")
 
-if geselecteerd.empty:
-    st.info("Vink een of meer planten aan in de tabel om de monografie te tonen.")
-else:
-    for _, rij in geselecteerd.iterrows():
-        st.markdown(f"### {rij.get('latin_name', 'Onbekend')}")
+if "latin_name" in df.columns:
+    keuze = st.selectbox(
+        "Kies een plant voor de monografie",
+        df["latin_name"].dropna().unique().tolist(),
+    )
+    if keuze:
+        rij = df[df["latin_name"] == keuze].iloc[0]
         for kolom in df.columns:
             waarde = rij[kolom]
 
@@ -199,7 +185,8 @@ else:
                 waarde = ", ".join(str(w) for w in waarde)
 
             st.markdown(f"**{kolom}:** {waarde}")
-        st.divider()
+else:
+    st.info("Geen monografie-gegevens beschikbaar.")
 
 # ---------------------------------------------------------------------------
 # Monografie
