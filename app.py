@@ -145,48 +145,64 @@ st.divider()
 
 
 # ---------------------------------------------------------------------------
-# Complete tabel
+# Complete tabel met checkbox-kolom
 # ---------------------------------------------------------------------------
 st.subheader("Complete tabel")
 
-st.dataframe(
-    df,
+# Tijdelijke kolom voor de selectie
+df_tabel = df.copy()
+df_tabel.insert(0, "Selecteer", False)
+
+# Data editor met checkbox
+edited_df = st.data_editor(
+    df_tabel,
     use_container_width=True,
     hide_index=True,
+    column_config={
+        "Selecteer": st.column_config.CheckboxColumn(
+            "Selecteer",
+            help="Vink één plant aan om de monografie te tonen",
+            default=False,
+        )
+    },
+    disabled=[k for k in df_tabel.columns if k != "Selecteer"],
 )
+
+# Bepaal de geselecteerde plant (alleen de eerste, als er meerdere zijn aangevinkt)
+geselecteerd = edited_df[edited_df["Selecteer"] == True]
 
 st.caption(f"{len(df)} planten getoond.")
 
 
 # ---------------------------------------------------------------------------
-# Monografie (één plant via selectbox)
+# Monografie (één plant)
 # ---------------------------------------------------------------------------
 st.divider()
 st.subheader("Monografie")
 
-if "latin_name" in df.columns:
-    keuze = st.selectbox(
-        "Kies een plant voor de monografie",
-        df["latin_name"].dropna().unique().tolist(),
-    )
-    if keuze:
-        rij = df[df["latin_name"] == keuze].iloc[0]
-        for kolom in df.columns:
-            waarde = rij[kolom]
-
-            if waarde is None:
-                continue
-            if isinstance(waarde, float) and pd.isna(waarde):
-                continue
-            if isinstance(waarde, str) and waarde.strip() == "":
-                continue
-
-            if isinstance(waarde, list):
-                waarde = ", ".join(str(w) for w in waarde)
-
-            st.markdown(f"**{kolom}:** {waarde}")
+if geselecteerd.empty:
+    st.info("Vink één plant aan in de tabel om de monografie te tonen.")
 else:
-    st.info("Geen monografie-gegevens beschikbaar.")
+    if len(geselecteerd) > 1:
+        st.warning("Je hebt meerdere planten aangevinkt. Alleen de eerste wordt getoond.")
+
+    rij = geselecteerd.iloc[0]
+    st.markdown(f"### {rij.get('latin_name', 'Onbekend')}")
+
+    for kolom in df.columns:
+        waarde = rij[kolom]
+
+        if waarde is None:
+            continue
+        if isinstance(waarde, float) and pd.isna(waarde):
+            continue
+        if isinstance(waarde, str) and waarde.strip() == "":
+            continue
+
+        if isinstance(waarde, list):
+            waarde = ", ".join(str(w) for w in waarde)
+
+        st.markdown(f"**{kolom}:** {waarde}")
 
 # ---------------------------------------------------------------------------
 # Monografie
