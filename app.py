@@ -173,8 +173,20 @@ if "latin_name" in df.columns:
         rij = df[df["latin_name"] == keuze].iloc[0]
         for kolom in df.columns:
             waarde = rij[kolom]
-            if pd.notna(waarde) and waarde != "":
-                st.markdown(f"**{kolom}:** {waarde}")
+
+            # Sla lege waarden over
+            if waarde is None:
+                continue
+            if isinstance(waarde, float) and pd.isna(waarde):
+                continue
+            if isinstance(waarde, str) and waarde.strip() == "":
+                continue
+
+            # Lijsten netjes weergeven
+            if isinstance(waarde, list):
+                waarde = ", ".join(str(w) for w in waarde)
+
+            st.markdown(f"**{kolom}:** {waarde}")
 else:
     st.info("Geen monografie-gegevens beschikbaar.")
 
