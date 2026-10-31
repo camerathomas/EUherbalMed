@@ -223,3 +223,33 @@ if record:
     })
 else:
     st.info("Geen records gevonden met de huidige filters.")
+
+# Zet de paginaconfiguratie
+st.set_page_config(page_title="Plantaardige geneesmiddelen", layout="wide")
+
+# Functie om de tekst uit de markdown-file te lezen
+def laad_waarom_tekst():
+    pad = Path(__file__).parent / "waarom_deze_app.md"
+    if pad.exists():
+        return pad.read_text(encoding="utf-8")
+    else:
+        return "De tekst 'waarom_deze_app.md' kon niet worden gevonden."
+
+# Sessie-state om bij te houden of de tekst zichtbaar is
+if "toon_waarom" not in st.session_state:
+    st.session_state.toon_waarom = False
+
+# Titel
+st.title("Plantaardige geneesmiddelen")
+
+# Knop om de tekst te openen/sluiten
+if st.button("Waarom deze app?"):
+    st.session_state.toon_waarom = not st.session_state.toon_waarom
+
+# Toon de tekst als de knop is ingedrukt
+if st.session_state.toon_waarom:
+    st.markdown(laad_waarom_tekst())
+
+# Hier komen later de andere onderdelen van de app (per plant, etc.)
+st.divider()
+st.caption("Inhoud volgt: per plant de Duitse marktstatus, de EMA-status en de aanvraagstatus.")
