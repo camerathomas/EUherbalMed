@@ -118,7 +118,7 @@ st.divider()
 # ---------------------------------------------------------------------------
 st.subheader("Complete tabel")
 
-df_tabel = df.copy()
+df_tabel = df.rename(columns=KOPNAMEN).copy()
 df_tabel.insert(0, "Selecteer", False)
 
 edited_df = st.data_editor(
