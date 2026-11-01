@@ -99,7 +99,6 @@ else:
     if "EMA_status" not in df.columns:
         df["EMA_status"] = None
 
-
 # ---------------------------------------------------------------------------
 # Zijbalk: zoekfunctie
 # ---------------------------------------------------------------------------
@@ -121,7 +120,6 @@ if zoekterm:
         if kolom in df.columns:
             mask |= df[kolom].astype(str).str.contains(zoekterm, case=False, na=False)
     df = df[mask]
-
 
 # ---------------------------------------------------------------------------
 # Hoofdweergave
