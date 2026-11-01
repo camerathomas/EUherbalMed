@@ -41,7 +41,6 @@ verwachte_kolommen = [
     "botanical_name",
     "therapeutic_area",
     "ema_status",
-    "notes",
 ]
 for kolom in verwachte_kolommen:
     if kolom not in df.columns:
@@ -119,11 +118,13 @@ if zoekterm:
         "english_common_name",
         "botanical_name",
         "therapeutic_area_str",
-        "notes",
     ]:
         if kolom in df.columns:
             mask |= df[kolom].astype(str).str.contains(zoekterm, case=False, na=False)
     df = df[mask]
+
+# Hulpkolom voor zoeken is niet nodig in de weergave
+df = df.drop(columns=["therapeutic_area_str"], errors="ignore")
 
 # ---------------------------------------------------------------------------
 # Hoofdweergave
