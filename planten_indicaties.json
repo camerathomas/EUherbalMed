@@ -1,169 +1,136 @@
 [
   {
-    "Duitse_naam": "Fraxinus excelsior folium",
-    "Nederlandse_naam": "Essenblad",
-    "Indicatie": "Lichte gewrichtspijn (traditioneel gebruik)",
+    "botanical_name": "Artemisia absinthium L.",
+    "Indicatie": "Verlies van eetlust, milde maag-darmklachten (traditioneel gebruik)",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Salicis cortex",
-    "Nederlandse_naam": "Wilgenbast",
+    "botanical_name": "Salix alba L.",
     "Indicatie": "Lichte gewrichtspijn, lage rugpijn (traditioneel gebruik)",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Filipendulae ulmariae herba",
-    "Nederlandse_naam": "Moerasspirea",
+    "botanical_name": "Filipendula ulmaria (L.) Maxim.",
     "Indicatie": "Lichte gewrichtspijn (traditioneel gebruik)",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Harpagophyti radix",
-    "Nederlandse_naam": "Duivelsklauw",
+    "botanical_name": "Harpagophytum procumbens DC.",
     "Indicatie": "Gewrichtspijn, spijsverteringsklachten (traditioneel gebruik)",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Menthae piperitae aetheroleum",
-    "Nederlandse_naam": "Pepermuntolie",
+    "botanical_name": "Mentha x piperita L.",
     "Indicatie": "Prikkelbare darm, hoofdpijn, verkoudheid",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Silybi mariani fructus",
-    "Nederlandse_naam": "Mariadistelvruchten",
+    "botanical_name": "Silybum marianum (L.) Gaertn.",
     "Indicatie": "Spijsverteringsklachten, leverfunctie",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Althaeae radix",
-    "Nederlandse_naam": "Heemstwortel",
+    "botanical_name": "Althaea officinalis L.",
     "Indicatie": "Keelirritatie, hoest",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Carvi fructus",
-    "Nederlandse_naam": "Komijn",
+    "botanical_name": "Carum carvi L.",
     "Indicatie": "Spijsverteringsklachten, winderigheid",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Curcumae longae rhizoma",
-    "Nederlandse_naam": "Curcuma",
+    "botanical_name": "Curcuma longa L.",
     "Indicatie": "Spijsverteringsklachten",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Hamamelidis cortex",
-    "Nederlandse_naam": "Hamamelisbast",
+    "botanical_name": "Hamamelis virginiana L.",
     "Indicatie": "Huidontsteking, kleine verwondingen",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Calendulae flos",
-    "Nederlandse_naam": "Goudsbloem",
+    "botanical_name": "Calendula officinalis L.",
     "Indicatie": "Huidontsteking, kleine verwondingen",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Betulae folium",
-    "Nederlandse_naam": "Berkenbladeren",
+    "botanical_name": "Betula pendula Roth",
     "Indicatie": "Urinewegklachten, waterretentie",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Arnicae flos",
-    "Nederlandse_naam": "Arnicabloemen",
+    "botanical_name": "Arnica montana L.",
     "Indicatie": "Kneuzingen, spierpijn, huidontsteking",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Hamamelidis folium",
-    "Nederlandse_naam": "Hamamelisbladeren",
-    "Indicatie": "Huidontsteking, kleine verwondingen",
-    "EMA_status": "Ja"
-  },
-  {
-    "Duitse_naam": "Liquiritiae radix",
-    "Nederlandse_naam": "Zoethoutwortel",
+    "botanical_name": "Glycyrrhiza glabra L.",
     "Indicatie": "Hoest, spijsverteringsklachten",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Lavandulae aetheroleum",
-    "Nederlandse_naam": "Lavendelolie",
+    "botanical_name": "Lavandula angustifolia Mill.",
     "Indicatie": "Angst, nervositeit, slaapproblemen",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Anisi fructus",
-    "Nederlandse_naam": "Anijs",
+    "botanical_name": "Pimpinella anisum L.",
     "Indicatie": "Spijsverteringsklachten, hoest",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Centaurii herba",
-    "Nederlandse_naam": "Duizendguldenkruid",
+    "botanical_name": "Centaurium erythraea Rafn",
     "Indicatie": "Spijsverteringsklachten, eetlust",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Psyllii semen",
-    "Nederlandse_naam": "Vlozaad",
+    "botanical_name": "Plantago ovata Forssk.",
     "Indicatie": "Obstipatie",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Salviae officinalis folium",
-    "Nederlandse_naam": "Saliebladeren",
+    "botanical_name": "Salvia officinalis L.",
     "Indicatie": "Keelontsteking, spijsverteringsklachten, overmatig zweten",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Thymi herba",
-    "Nederlandse_naam": "Tijm",
+    "botanical_name": "Thymus vulgaris L.",
     "Indicatie": "Hoest, verkoudheid",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Valerianae radix",
-    "Nederlandse_naam": "Valeriaanwortel",
+    "botanical_name": "Valeriana officinalis L.",
     "Indicatie": "Slaapproblemen, nervositeit",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Passiflorae herba",
-    "Nederlandse_naam": "Passiebloemkruid",
+    "botanical_name": "Passiflora incarnata L.",
     "Indicatie": "Nervositeit, slaapproblemen",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Ginkgo folium",
-    "Nederlandse_naam": "Ginkgo",
+    "botanical_name": "Ginkgo biloba L.",
     "Indicatie": "Cognitieve achteruitgang, dementie",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Equiseti herba",
-    "Nederlandse_naam": "Paardenstaartkruid",
+    "botanical_name": "Equisetum arvense L.",
     "Indicatie": "Urinewegklachten, waterretentie",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Eucalyptus aetheroleum",
-    "Nederlandse_naam": "Eucalyptusolie",
+    "botanical_name": "Eucalyptus globulus Labill.",
     "Indicatie": "Verkoudheid, hoest",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Sambuci flos",
-    "Nederlandse_naam": "Vlierbloesem",
+    "botanical_name": "Sambucus nigra L.",
     "Indicatie": "Verkoudheid, koorts",
     "EMA_status": "Ja"
   },
   {
-    "Duitse_naam": "Plantaginis lanceolatae folium",
-    "Nederlandse_naam": "Weegbree",
+    "botanical_name": "Plantago lanceolata L.",
     "Indicatie": "Hoest, keelirritatie",
     "EMA_status": "Ja"
   }
