@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 import json
-import re
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -15,12 +14,11 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).parent
 DATA_FILE = BASE_DIR / "ema_herbal_medicines.json"
-INDICATIES_JSON = BASE_DIR / "de_registered.json"
 WAAROM_MD = BASE_DIR / "waarom_deze_app.md"
 
 
 # ---------------------------------------------------------------------------
-# Data laden (bestaand)
+# Data laden
 # ---------------------------------------------------------------------------
 @st.cache_data
 def load_records() -> list[dict]:
@@ -35,12 +33,12 @@ records = load_records()
 df = pd.DataFrame(records)
 
 verwachte_kolommen = [
-  "latin_name",
-      "dutch_common_name",
-      "botanical_name",
-      "therapeutic_area",
-      "ema_status",
-      "de_registered",
+    "latin_name",
+    "dutch_common_name",
+    "botanical_name",
+    "therapeutic_area",
+    "ema_status",
+    "de_registered",
 ]
 for kolom in verwachte_kolommen:
     if kolom not in df.columns:
@@ -55,52 +53,17 @@ df["therapeutic_area"] = df["therapeutic_area"].apply(
 df["therapeutic_area_str"] = df["therapeutic_area"].fillna("").astype(str)
 
 # Duitse registratie leesbaar maken
-df["Gebruikt in Duitsland"] = df["de_registered"].map({True: "Ja", False: "Nee"})
-df = df.drop(columns=["de_registered"])
-
-# --- Duitse data erbij laden ---
-@st.cache_data
-def load_duitse_data() -> list[dict]:
-    with open(INDICATIES_JSON, "r", encoding="utf-8") as f:
-        return json.load(f)
-
-
-def soort_sleutel(naam) -> str:
-    """Genus + soort (kleine letters), bv. 'Betula pendula Roth; ...' -> 'betula pendula'."""
-    if naam is None or (isinstance(naam, float) and pd.isna(naam)):
-        return ""
-    eerste = re.split(r"[;(\[]| and ", str(naam))[0]
-    woorden = re.findall(r"[A-Za-z\-]+", eerste)
-    return " ".join(w.lower() for w in woorden[:2])
-
-
-duits_map = {}
-if INDICATIES_JSON.exists():
-    for rij in load_duitse_data():
-        sleutel = soort_sleutel(rij.get("botanical_name"))
-        if sleutel:
-            duits_map[sleutel] = rij
+if "de_registered" in df.columns:
+    df["Gebruikt in Duitsland"] = df["de_registered"].map(
+        {True: "Ja", False: "Nee"}
+    ).fillna("–")
+    df = df.drop(columns=["de_registered"])
 else:
-    st.warning(f"Het bestand '{INDICATIES_JSON.name}' kon niet worden gevonden.")
+    df["Gebruikt in Duitsland"] = "–"
 
+# Lege EMA-status leesbaar maken
+df["ema_status"] = df["ema_status"].replace("", "Geen status")
 
-# Reserve-sleutel op geslacht, voor EMA-namen zonder soort (bv. 'Salix [various species ...]')
-duits_geslacht_map = {}
-for _sleutel, _rij in duits_map.items():
-    duits_geslacht_map.setdefault(_sleutel.split()[0], _rij)
-
-
-def zoek_duits(botanisch, veld):
-    sleutel = soort_sleutel(botanisch)
-    rij = duits_map.get(sleutel)
-    if rij is None and sleutel and " " not in sleutel:
-        rij = duits_geslacht_map.get(sleutel)
-    return rij.get(veld) if rij else None
-
-
-GEEN_DATA = "–"
-df["Gebruik in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "Indicatie")).fillna(GEEN_DATA)
-df["Status in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "EMA_status")).fillna(GEEN_DATA)
 
 # ---------------------------------------------------------------------------
 # Zijbalk: zoekfunctie
@@ -118,7 +81,6 @@ if zoekterm:
     for kolom in [
         "latin_name",
         "dutch_common_name",
-        "english_common_name",
         "botanical_name",
         "therapeutic_area_str",
     ]:
@@ -126,8 +88,8 @@ if zoekterm:
             mask |= df[kolom].astype(str).str.contains(zoekterm, case=False, na=False)
     df = df[mask]
 
-# Hulpkolom voor zoeken is niet nodig in de weergave
 df = df.drop(columns=["therapeutic_area_str"], errors="ignore")
+
 
 # ---------------------------------------------------------------------------
 # Hoofdweergave
@@ -155,11 +117,9 @@ st.divider()
 # ---------------------------------------------------------------------------
 st.subheader("Complete tabel")
 
-# Tijdelijke kolom voor de selectie
 df_tabel = df.copy()
 df_tabel.insert(0, "Selecteer", False)
 
-# Data editor met checkbox
 edited_df = st.data_editor(
     df_tabel,
     use_container_width=True,
@@ -174,14 +134,13 @@ edited_df = st.data_editor(
     disabled=[k for k in df_tabel.columns if k != "Selecteer"],
 )
 
-# Bepaal de geselecteerde plant (alleen de eerste, als er meerdere zijn aangevinkt)
 geselecteerd = edited_df[edited_df["Selecteer"] == True]
 
 st.caption(f"{len(df)} planten getoond.")
 
 
 # ---------------------------------------------------------------------------
-# Monografie (één plant)
+# Monografie
 # ---------------------------------------------------------------------------
 st.divider()
 st.subheader("Monografie")
@@ -209,38 +168,6 @@ else:
             waarde = ", ".join(str(w) for w in waarde)
 
         st.markdown(f"**{kolom}:** {waarde}")
-
-# ---------------------------------------------------------------------------
-# Monografie
-# ---------------------------------------------------------------------------
-st.divider()
-st.subheader("Monografie")
-
-if "latin_name" in df.columns:
-    keuze = st.selectbox(
-        "Kies een plant voor de monografie",
-        df["latin_name"].dropna().unique().tolist(),
-    )
-    if keuze:
-        rij = df[df["latin_name"] == keuze].iloc[0]
-        for kolom in df.columns:
-            waarde = rij[kolom]
-
-            # Sla lege waarden over
-            if waarde is None:
-                continue
-            if isinstance(waarde, float) and pd.isna(waarde):
-                continue
-            if isinstance(waarde, str) and waarde.strip() == "":
-                continue
-
-            # Lijsten netjes weergeven
-            if isinstance(waarde, list):
-                waarde = ", ".join(str(w) for w in waarde)
-
-            st.markdown(f"**{kolom}:** {waarde}")
-else:
-    st.info("Geen monografie-gegevens beschikbaar.")
 
 
 # ---------------------------------------------------------------------------
