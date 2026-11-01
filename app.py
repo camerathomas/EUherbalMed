@@ -103,7 +103,7 @@ for key in ("toon_waarom", "toon_duitsland", "toon_frankrijk"):
         st.session_state[key] = False
 
 # Rij met drie knoppen
-col1, col2, col3 = st.columns(3)
+col1, col2, col3, col4 = st.columns(4)
 
 with col1:
     if st.button("Waarom deze app?", use_container_width=True):
