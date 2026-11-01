@@ -82,13 +82,23 @@ else:
     st.warning(f"Het bestand '{INDICATIES_JSON.name}' kon niet worden gevonden.")
 
 
+# Reserve-sleutel op geslacht, voor EMA-namen zonder soort (bv. 'Salix [various species ...]')
+duits_geslacht_map = {}
+for _sleutel, _rij in duits_map.items():
+    duits_geslacht_map.setdefault(_sleutel.split()[0], _rij)
+
+
 def zoek_duits(botanisch, veld):
-    rij = duits_map.get(soort_sleutel(botanisch))
+    sleutel = soort_sleutel(botanisch)
+    rij = duits_map.get(sleutel)
+    if rij is None and sleutel and " " not in sleutel:
+        rij = duits_geslacht_map.get(sleutel)
     return rij.get(veld) if rij else None
 
 
-df["Gebruik in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "Indicatie"))
-df["Status in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "EMA_status"))
+GEEN_DATA = "–"
+df["Gebruik in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "Indicatie")).fillna(GEEN_DATA)
+df["Status in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "EMA_status")).fillna(GEEN_DATA)
 
 # ---------------------------------------------------------------------------
 # Zijbalk: zoekfunctie
