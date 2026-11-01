@@ -46,6 +46,9 @@ for kolom in verwachte_kolommen:
     if kolom not in df.columns:
         df[kolom] = None
 
+# Houd alleen deze kolommen over, in deze volgorde
+df = df[verwachte_kolommen].copy()
+
 df["therapeutic_area_str"] = df["therapeutic_area"].apply(
     lambda x: ", ".join(x) if isinstance(x, list) else (x or "")
 )
@@ -60,7 +63,7 @@ def load_duitse_data() -> list[dict]:
 
 duitse_records = load_duitse_data()
 
-# Map op Latijnse naam (Duitse JSON gebruikt "Wirkstoff")
+# Map op botanische naam (Duitse JSON gebruikt "Wirkstoff")
 duits_map = {}
 for rij in duitse_records:
     latijn = str(rij.get("Wirkstoff", "")).strip().lower()
