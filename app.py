@@ -34,20 +34,13 @@ records = load_records()
 df = pd.DataFrame(records)
 
 verwachte_kolommen = [
-    "latin_name",
     "dutch_common_name",
     "english_common_name",
     "botanical_name",
     "therapeutic_area",
     "ema_status",
-    "ema_outcome",
-    "ema_url",
-    "nl_registered",
-    "nl_product_name",
-    "nl_price_eur",
-    "de_price_eur",
-    "price_difference_pct",
-    "notes",
+    "Gebruik in Duitsland",
+    "Status in Duitsland",
 ]
 for kolom in verwachte_kolommen:
     if kolom not in df.columns:
@@ -74,14 +67,13 @@ for rij in duitse_records:
     if latijn:
         duits_map[latijn] = rij
 
-# Voeg de Duitse kolommen toe aan df
-df["Indicatie"] = df["latin_name"].apply(
+# Vul de twee Duitse kolommen op basis van botanical_name
+df["Gebruik in Duitsland"] = df["botanical_name"].apply(
     lambda x: duits_map.get(str(x).strip().lower(), {}).get("Indicatie")
 )
-df["EMA_status"] = df["latin_name"].apply(
+df["Status in Duitsland"] = df["botanical_name"].apply(
     lambda x: duits_map.get(str(x).strip().lower(), {}).get("EMA_status")
 )
-
 
 # ---------------------------------------------------------------------------
 # Aanvulling: indicaties en EMA-status uit aparte JSON (veilig, zonder merge)
