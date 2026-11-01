@@ -104,7 +104,10 @@ else:
 # ---------------------------------------------------------------------------
 st.sidebar.header("Zoeken")
 
-zoekterm = st.sidebar.text_input("Zoek op naam, indicatie of werkstof")
+zoekterm = st.sidebar.text_input(
+    "Zoek op naam, indicatie of werkstof",
+    help="Typ een deel van de Latijnse naam, de Nederlandse naam, de indicatie of de werkstof.",
+)
 
 if zoekterm:
     mask = pd.Series(False, index=df.index)
@@ -114,7 +117,6 @@ if zoekterm:
         "english_common_name",
         "botanical_name",
         "therapeutic_area_str",
-        "Indicatie",
         "notes",
     ]:
         if kolom in df.columns:
