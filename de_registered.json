@@ -14,7 +14,7 @@
       "botanical_name": "Artemisia absinthium L.",
       "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": "ja"
+      "de_registered": "ja",
     },
     {
       "latin_name": "Adhatodae vasicae folium",
@@ -22,7 +22,7 @@
       "botanical_name": "Adhatoda vasica Nees",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": "ja"
+      "de_registered": "ja",
     },
     {
       "latin_name": "Agni casti fructus",
@@ -30,7 +30,7 @@
       "botanical_name": "Vitex agnus-castus L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": "ja"
+      "de_registered": "ja",
     },
     {
       "latin_name": "Agrimoniae herba",
