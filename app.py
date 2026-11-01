@@ -7,7 +7,7 @@ from pathlib import Path
 # Configuratie
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="Plantaardige geneesmiddelen",
+    page_title="Plantaardige geneesmiddelen, Ema Status",
     page_icon="🌿",
     layout="wide",
 )
@@ -97,12 +97,28 @@ df = df.drop(columns=["therapeutic_area_str"], errors="ignore")
 # ---------------------------------------------------------------------------
 st.title("🌿 Plantaardige geneesmiddelen")
 
-if "toon_waarom" not in st.session_state:
-    st.session_state.toon_waarom = False
+# Initialiseer session state voor de drie informatiepanelen
+for key in ("toon_waarom", "toon_duitsland", "toon_frankrijk"):
+    if key not in st.session_state:
+        st.session_state[key] = False
 
-if st.button("Waarom deze app?"):
-    st.session_state.toon_waarom = not st.session_state.toon_waarom
+# Rij met drie knoppen
+col1, col2, col3 = st.columns(3)
 
+with col1:
+    if st.button("Waarom deze app?", use_container_width=True):
+        st.session_state.toon_waarom = not st.session_state.toon_waarom
+
+with col2:
+    if st.button("Duitse situatie", use_container_width=True):
+        st.session_state.toon_duitsland = not st.session_state.toon_duitsland
+
+with col3:
+    if st.button("Franse situatie", use_container_width=True):
+        st.session_state.toon_frankrijk = not st.session_state.toon_frankrijk
+
+
+# --- Waarom deze app? ---
 if st.session_state.toon_waarom:
     with st.container(border=True):
         if WAAROM_MD.exists():
@@ -110,8 +126,70 @@ if st.session_state.toon_waarom:
         else:
             st.info("De tekst 'waarom_deze_app.md' kon niet worden gevonden.")
 
-st.divider()
 
+# --- Duitse situatie ---
+if st.session_state.toon_duitsland:
+    with st.container(border=True):
+        st.markdown("### 🇩🇪 Duitse situatie: drie categorieën kruidengeneesmiddelen")
+        st.markdown(
+            """
+In Duitsland kunnen kruidengeneesmiddelen op drie manieren worden toegelaten:
+
+1. **Volledige toelating** – met eigen preklinische en klinische onderzoeken.
+   Deze route wordt voor de meeste kruidengeneesmiddelen niet gevolgd.
+2. **Well-established use** – op basis van gepubliceerd wetenschappelijk bewijs;
+   de werkzame stof moet al minstens 10 jaar medisch in de EU in gebruik zijn.
+   Dit is de meest voorkomende route.
+3. **Traditional use** – registratie op basis van langdurig traditioneel gebruik
+   (minimaal 30 jaar, waarvan 15 in de EU). De werkzaamheid hoeft niet
+   wetenschappelijk bewezen te zijn, maar moet *plausibel* zijn. Bedoeld voor
+   eenvoudige aandoeningen die geschikt zijn voor zelfmedicatie.
+
+Daarnaast bestaat de **Standardzulassung**: een vereenvoudigde, aparte procedure
+voor gestandaardiseerde, veelgebruikte middelen (zoals kruidentheeën) die al
+lang op de markt zijn. De actuele lijst met monografieën hiervoor wordt
+bijgehouden door het **BfArM**.
+            """
+        )
+        st.markdown(
+            "🔗 [BfArM – Derzeit gültige Monografien der Standardzulassung]"
+            "(https://www.bfarm.de/SharedDocs/Downloads/DE/Arzneimittel/Zulassung/"
+            "ZulRelThemen/stdZul_und_Reg/aktuell_gueltige_liste_standardzulassungen.html)"
+        )
+
+
+# --- Franse situatie ---
+if st.session_state.toon_frankrijk:
+    with st.container(border=True):
+        st.markdown("### 🇫🇷 Franse situatie: farmacopee en geregistreerde kruiden")
+        st.markdown(
+            """
+In Frankrijk is de **Pharmacopée française** (11e editie) het centrale
+referentiedocument. Hierin staan de nationale monografieën voor medicinale
+planten. De ANSM publiceert daarnaast lijsten van traditioneel gebruikte
+medicinale planten (Lijst A) en planten met grotere risico's (Lijst B).
+
+De meeste plantaardige producten in Frankrijk zijn **voedingssupplementen**.
+Een klein aantal kruiden is echter als **geregistreerd geneesmiddel (AMM)**
+toegelaten. Voorbeelden die de ANSM noemt:
+
+- **Ginkgo** (o.a. Tanakan)
+- **Ispaghul** (*Plantago ovata*)
+- **Klimop** (*Hedera helix*)
+- **Sint-Janskruid** (*Hypericum perforatum*)
+- **Senna** (*Cassia senna*)
+- **Rode wijnstok** (*Vitis vinifera*)
+
+Daarnaast noemt de ANSM in haar generieke geneesmiddelenrepertoire ook
+**Zaagpalm** (*Serenoa repens*) als plantaardige werkzame stof met een AMM.
+            """
+        )
+        st.markdown(
+            "🔗 [ANSM – La Pharmacopée française]"
+            "(https://ansm.sante.fr/documents/reference/pharmacopee/la-pharmacopee-francaise)"
+        )
+
+st.divider()
 
 # ---------------------------------------------------------------------------
 # Complete tabel met checkbox-kolom
