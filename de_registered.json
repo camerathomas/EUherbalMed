@@ -14,7 +14,7 @@
       "botanical_name": "Artemisia absinthium L.",
       "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": false
+      "de_registered": "ja"
     },
     {
       "latin_name": "Adhatodae vasicae folium",
@@ -22,7 +22,7 @@
       "botanical_name": "Adhatoda vasica Nees",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Agni casti fructus",
@@ -30,7 +30,7 @@
       "botanical_name": "Vitex agnus-castus L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Agrimoniae herba",
@@ -38,7 +38,7 @@
       "botanical_name": "Agrimonia eupatoria L.",
       "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Agropyri repentis rhizoma",
@@ -46,7 +46,7 @@
       "botanical_name": "Agropyron repens (L.) P. Beauv.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Allii cepae bulbus",
@@ -54,7 +54,7 @@
       "botanical_name": "Allium cepa L.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Allii sativi bulbus",
@@ -62,7 +62,7 @@
       "botanical_name": "Allium sativum L.",
       "therapeutic_area": ["Cough and cold", "Circulatory disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Aloes folii succus siccatus",
@@ -70,7 +70,7 @@
       "botanical_name": "Aloe barbadensis Mill. and Aloe (various species)",
       "therapeutic_area": ["Constipation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Althaeae radix",
@@ -78,7 +78,7 @@
       "botanical_name": "Althaea officinalis L.",
       "therapeutic_area": ["Mouth and throat disorders", "Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Andrographidis paniculatae folium",
@@ -86,7 +86,7 @@
       "botanical_name": "Andrographis paniculata Nees",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Angelicae sinensis radix",
@@ -94,7 +94,7 @@
       "botanical_name": "Angelica sinensis (Oliv.) Diels",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Anisi aetheroleum",
@@ -102,7 +102,7 @@
       "botanical_name": "Pimpinella anisum L.",
       "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Anisi fructus",
@@ -110,7 +110,7 @@
       "botanical_name": "Pimpinella anisum L.",
       "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Arctii radix",
@@ -118,7 +118,7 @@
       "botanical_name": "Arctium lappa L.",
       "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds", "Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Arnicae flos",
@@ -126,7 +126,7 @@
       "botanical_name": "Arnica montana L.",
       "therapeutic_area": ["Pain and inflammation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Avenae fructus",
@@ -134,7 +134,7 @@
       "botanical_name": "Avena sativa L.",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Avenae herba",
@@ -142,7 +142,7 @@
       "botanical_name": "Avena sativa L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Balsamum peruvianum",
@@ -150,7 +150,7 @@
       "botanical_name": "Myroxylon balsamum (L.) Harms var. perierae (Royle) Harms",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Betulae folium",
@@ -158,7 +158,7 @@
       "botanical_name": "Betula pendula Roth; Betula pubescens Ehrh.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Boldi folium",
@@ -166,7 +166,7 @@
       "botanical_name": "Peumus boldus Molina",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Bursae pastoris herba",
@@ -174,7 +174,7 @@
       "botanical_name": "Capsella bursa-pastoris (L.) Medik.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Calendulae flos",
@@ -182,7 +182,7 @@
       "botanical_name": "Calendula officinalis L.",
       "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Calendulae herba",
@@ -190,7 +190,7 @@
       "botanical_name": "Calendula officinalis L.",
       "therapeutic_area": [],
       "ema_status": "D: Draft under discussion",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Camelliae sinensis non fermentatum folium",
@@ -198,7 +198,7 @@
       "botanical_name": "Camellia sinensis (L.) Kuntze",
       "therapeutic_area": ["Fatigue and weakness"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cannabis flos",
@@ -206,7 +206,7 @@
       "botanical_name": "Cannabis sativa L.",
       "therapeutic_area": [],
       "ema_status": "D: Draft under discussion",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Capsici fructus",
@@ -214,7 +214,7 @@
       "botanical_name": "Capsicum annuum L. var. minimum (Miller) Heiser",
       "therapeutic_area": ["Pain and inflammation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Carvi aetheroleum",
@@ -222,7 +222,7 @@
       "botanical_name": "Carum carvi L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Carvi fructus",
@@ -230,7 +230,7 @@
       "botanical_name": "Carum carvi L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Caryophylli floris aetheroleum",
@@ -238,7 +238,7 @@
       "botanical_name": "Syzygium aromaticum (L.) Merr. et L.M. Perry",
       "therapeutic_area": ["Mouth and throat disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Caryophylli flos",
@@ -246,7 +246,7 @@
       "botanical_name": "Syzygium aromaticum (L.) Merr. et L.M.Perry",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Centaurii herba",
@@ -254,7 +254,7 @@
       "botanical_name": "Centaurium erythraea Rafn. s.l.",
       "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Centellae asiaticae herba",
@@ -262,7 +262,7 @@
       "botanical_name": "Centella asiatica (L.) Urb.",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Chamomillae romanae flos",
@@ -270,7 +270,7 @@
       "botanical_name": "Chamaemelum nobile (L.) All. (Anthemis nobilis L.)",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Chelidonii herba",
@@ -278,7 +278,7 @@
       "botanical_name": "Chelidonium majus L.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cichorii intybi radix",
@@ -286,7 +286,7 @@
       "botanical_name": "Cichorium intybus L.",
       "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cimicifugae rhizoma",
@@ -294,7 +294,7 @@
       "botanical_name": "Cimicifuga racemosa (L.) Nutt.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cinnamomi cortex",
@@ -302,7 +302,7 @@
       "botanical_name": "Cinnamomum verum J. S. Presl",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cinnamomi corticis aetheroleum",
@@ -310,7 +310,7 @@
       "botanical_name": "Cinnamomum verum J. S. Presl; Cinnamomum zeylanicum Nees",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cisti cretici herba",
@@ -318,7 +318,7 @@
       "botanical_name": "Cistus creticus L.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Citri bergamiae aetheroleum",
@@ -326,7 +326,7 @@
       "botanical_name": "Citrus bergamia Risso & Poiteau.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cnici benedicti herba",
@@ -334,7 +334,7 @@
       "botanical_name": "Cnicus benedictus L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Colae semen",
@@ -342,7 +342,7 @@
       "botanical_name": "Cola nitida (Vent.) Schott et Endl.; Cola acuminata (P. Beauv.) Schott et Endl.",
       "therapeutic_area": ["Fatigue and weakness"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Combination: Species pectorales",
@@ -350,7 +350,7 @@
       "botanical_name": "",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Crataegi folium cum flore",
@@ -358,7 +358,7 @@
       "botanical_name": "Crataegus monogyna Jacq.; C. laevigata (Poir.) DC.; C. pentagyna Waldst. et Kit. ex Willd.; C. azarolus L.",
       "therapeutic_area": ["Circulatory disorders", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cucurbitae semen",
@@ -366,7 +366,7 @@
       "botanical_name": "Cucurbita pepo L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Curcumae longae rhizoma",
@@ -374,7 +374,7 @@
       "botanical_name": "Curcuma longa L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Curcumae xanthorrhizae rhizoma",
@@ -382,7 +382,7 @@
       "botanical_name": "Curcuma xanthorrhiza Roxb.; C. xanthorrhiza D. Dietrich",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Cynarae folium",
@@ -390,7 +390,7 @@
       "botanical_name": "Cynara cardunculus L.; syn. C. scolymus L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Echinaceae angustifoliae radix",
@@ -398,7 +398,7 @@
       "botanical_name": "Echinacea angustifolia DC.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Echinaceae pallidae radix",
@@ -406,7 +406,7 @@
       "botanical_name": "Echinacea pallida (Nutt.) Nutt.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Echinaceae purpureae herba",
@@ -414,7 +414,7 @@
       "botanical_name": "Echinacea purpurea (L.) Moench",
       "therapeutic_area": ["Skin disorders and minor wounds", "Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Echinaceae purpureae radix",
@@ -422,7 +422,7 @@
       "botanical_name": "Echinacea purpurea (L.) Moench.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Eleutherococci radix",
@@ -430,7 +430,7 @@
       "botanical_name": "Eleutherococcus senticosus (Rupr. et Maxim.) Maxim.",
       "therapeutic_area": ["Fatigue and weakness"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Epilobii herba",
@@ -438,7 +438,7 @@
       "botanical_name": "Epilobium angustifolium L.; Epilobium parviflorum Schreb.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Equiseti herba",
@@ -446,7 +446,7 @@
       "botanical_name": "Equisetum arvense L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Eschscholziae herba",
@@ -454,7 +454,7 @@
       "botanical_name": "Eschscholzia californica Cham.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Eucalypti aetheroleum",
@@ -462,7 +462,7 @@
       "botanical_name": "Eucalyptus globulus Labill.; Eucalyptus polybractea R.T. Baker; Eucalyptus smithii R.T. Baker",
       "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Eucalypti folium",
@@ -470,7 +470,7 @@
       "botanical_name": "Eucalyptus globulus Labill.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Euphrasiae herba",
@@ -478,7 +478,7 @@
       "botanical_name": "Euphrasia officinalis L.; Euphrasia rostkoviana Hayne",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Filipendulae ulmariae flos",
@@ -486,7 +486,7 @@
       "botanical_name": "Filipendula ulmaria (L.) Maxim. (= Spiraea ulmaria L.)",
       "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Filipendulae ulmariae herba",
@@ -494,7 +494,7 @@
       "botanical_name": "Filipendula ulmaria (L.) Maxim. (= Spiraea ulmaria L.)",
       "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Foeniculi amari fructus",
@@ -502,7 +502,7 @@
       "botanical_name": "Foeniculum vulgare Miller subsp. vulgare var. vulgare",
       "therapeutic_area": ["Urinary tract and genital disorders", "Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Foeniculi amari fructus aetheroleum",
@@ -510,7 +510,7 @@
       "botanical_name": "Foeniculum vulgare Miller subsp. vulgare var. vulgare",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Foeniculi dulcis fructus",
@@ -518,7 +518,7 @@
       "botanical_name": "Foeniculum vulgare Miller subsp. vulgare var. dulce (Mill.) Batt. & Trab.",
       "therapeutic_area": ["Urinary tract and genital disorders", "Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Fragariae folium",
@@ -526,7 +526,7 @@
       "botanical_name": "Fragaria vesca L.; Fragaria moschata Weston; Fragaria viridis Weston; Fragaria x ananassa (Weston) Duchesne ex Rozier",
       "therapeutic_area": ["Urinary tract and genital disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Frangulae cortex",
@@ -534,7 +534,7 @@
       "botanical_name": "Rhamnus frangula L.",
       "therapeutic_area": ["Constipation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Fraxini folium",
@@ -542,7 +542,7 @@
       "botanical_name": "Fraxinus excelsior L.; Fraxinus angustifolia Vahl",
       "therapeutic_area": ["Pain and inflammation", "Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Fucus",
@@ -550,7 +550,7 @@
       "botanical_name": "Fucus vesiculosus L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Fumariae herba",
@@ -558,7 +558,7 @@
       "botanical_name": "Fumaria officinalis L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Gentianae radix",
@@ -566,7 +566,7 @@
       "botanical_name": "Gentiana lutea L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Ginkgo folium",
@@ -574,7 +574,7 @@
       "botanical_name": "Ginkgo biloba L.",
       "therapeutic_area": ["Circulatory disorders"],
       "ema_status": "",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Ginseng radix",
@@ -582,7 +582,7 @@
       "botanical_name": "Panax ginseng C.A.Mey.",
       "therapeutic_area": ["Fatigue and weakness"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Glycini semen",
@@ -590,7 +590,7 @@
       "botanical_name": "Glycine max (L.) Merr.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Grindeliae herba",
@@ -598,7 +598,7 @@
       "botanical_name": "Grindelia robusta Nutt., Grindelia squarrosa (Pursh) Dunal, Grindelia humilis Hook. et Arn., Grindelia camporum Greene",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Hamamelidis cortex",
@@ -606,7 +606,7 @@
       "botanical_name": "Hamamelis virginiana L.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Hamamelidis folium",
@@ -614,7 +614,7 @@
       "botanical_name": "Hamamelis virginiana L.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Hamamelidis folium et cortex aut ramunculus destillatum",
@@ -622,7 +622,7 @@
       "botanical_name": "Hamamelis virginiana L.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Eye discomfort"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Harpagophyti radix",
@@ -630,7 +630,7 @@
       "botanical_name": "Harpagophytum procumbens DC.; Harpagophytum zeyheri Decne",
       "therapeutic_area": ["Loss of appetite", "Pain and inflammation", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Hederae helicis folium",
@@ -638,7 +638,7 @@
       "botanical_name": "Hedera helix L.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Helichrysi flos",
@@ -646,7 +646,7 @@
       "botanical_name": "Helichrysum arenarium (L.) Moench",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Herniariae herba",
@@ -654,7 +654,7 @@
       "botanical_name": "Herniaria glabra L.; Herniaria hirsuta L.; Herniaria incana Lam.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Hippocastani cortex",
@@ -662,7 +662,7 @@
       "botanical_name": "Aesculus hippocastanum L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Hippocastani semen",
@@ -670,7 +670,7 @@
       "botanical_name": "Aesculus hippocastanum L.",
       "therapeutic_area": ["Circulatory disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Hyperici herba",
@@ -678,7 +678,7 @@
       "botanical_name": "Hypericum perforatum L.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Mental stress and mood disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Juglandis folium",
@@ -686,7 +686,7 @@
       "botanical_name": "Juglans regia L.",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Juniperi aetheroleum",
@@ -694,7 +694,7 @@
       "botanical_name": "Juniperus communis L.",
       "therapeutic_area": ["Pain and inflammation", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Juniperi galbulus (pseudo-fructus)",
@@ -702,7 +702,7 @@
       "botanical_name": "Juniperus communis L.",
       "therapeutic_area": ["Digestive disorder", "Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Lavandulae aetheroleum",
@@ -710,7 +710,7 @@
       "botanical_name": "Lavandula angustifolia Mill. (L. officinalis Chaix)",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Lavandulae flos",
@@ -718,7 +718,7 @@
       "botanical_name": "Lavandula angustifolia Mill. (L. officinalis Chaix)",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Lecithinum ex soya",
@@ -726,7 +726,7 @@
       "botanical_name": "Glycine max (L.) Merr.",
       "therapeutic_area": ["Fatigue and weakness"],
       "ema_status": "P: Draft published",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Leonuri cardiacae herba",
@@ -734,7 +734,7 @@
       "botanical_name": "Leonurus cardiaca L.",
       "therapeutic_area": ["Circulatory disorders", "Mental stress and mood disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Levistici radix",
@@ -742,7 +742,7 @@
       "botanical_name": "Levisticum officinale W.D.J.Koch",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Lichen islandicus",
@@ -750,7 +750,7 @@
       "botanical_name": "Cetraria islandica (L.) Acharius s.l.",
       "therapeutic_area": ["Loss of appetite", "Mouth and throat disorders", "Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Lini semen",
@@ -758,7 +758,7 @@
       "botanical_name": "Linum usitatissimum L.",
       "therapeutic_area": ["Constipation", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Liquiritiae radix",
@@ -766,7 +766,7 @@
       "botanical_name": "Glycyrrhiza glabra L.; Glycyrrhiza inflata Bat.; Glycyrrhiza uralensis Fisch.",
       "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Lupuli flos",
@@ -774,7 +774,7 @@
       "botanical_name": "Humulus lupulus L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Malvae folium",
@@ -782,7 +782,7 @@
       "botanical_name": "Malva sylvestris L.; Malva neglecta Wallr.",
       "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Malvae sylvestris flos",
@@ -790,7 +790,7 @@
       "botanical_name": "Malva sylvestris L.",
       "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Marrubii herba",
@@ -798,7 +798,7 @@
       "botanical_name": "Marrubium vulgare L.",
       "therapeutic_area": ["Loss of appetite", "Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Mastic",
@@ -806,7 +806,7 @@
       "botanical_name": "Pistacia lentiscus L.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Mate folium",
@@ -814,7 +814,7 @@
       "botanical_name": "Ilex paraguariensis A.St.-Hil.",
       "therapeutic_area": ["Fatigue and weakness", "Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Matricariae aetheroleum",
@@ -822,7 +822,7 @@
       "botanical_name": "Matricaria recutita L.",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Matricariae flos",
@@ -830,7 +830,7 @@
       "botanical_name": "Matricaria recutita L.",
       "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds", "Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Maydis stigma",
@@ -838,7 +838,7 @@
       "botanical_name": "Zea mays L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "D: Draft under discussion",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Melaleucae aetheroleum",
@@ -846,7 +846,7 @@
       "botanical_name": "Melaleuca alternifolia (Maiden and Betche) Cheel",
       "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Meliloti herba",
@@ -854,7 +854,7 @@
       "botanical_name": "Melilotus officinalis (L.) Lam.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Melissae folium",
@@ -862,7 +862,7 @@
       "botanical_name": "Melissa officinalis L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Menthae piperitae aetheroleum",
@@ -870,7 +870,7 @@
       "botanical_name": "Mentha x piperita L.",
       "therapeutic_area": ["Pain and inflammation", "Skin disorders and minor wounds", "Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Menthae piperitae folium",
@@ -878,7 +878,7 @@
       "botanical_name": "Mentha x piperita L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Menyanthidis trifoliatae folium",
@@ -886,7 +886,7 @@
       "botanical_name": "Menyanthes trifoliata L.",
       "therapeutic_area": ["Loss of appetite", "Pain and inflammation", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Millefolii flos",
@@ -894,7 +894,7 @@
       "botanical_name": "Achillea millefolium L.",
       "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Millefolii herba",
@@ -902,7 +902,7 @@
       "botanical_name": "Achillea millefolium L.",
       "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Myrrha",
@@ -910,7 +910,7 @@
       "botanical_name": "Commiphora molmol Engler",
       "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Myrtilli fructus recens",
@@ -918,7 +918,7 @@
       "botanical_name": "Vaccinium myrtillus L.",
       "therapeutic_area": ["Circulatory disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Myrtilli fructus siccus",
@@ -926,7 +926,7 @@
       "botanical_name": "Vaccinium myrtillus L.",
       "therapeutic_area": ["Mouth and throat disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Oenotherae oleum",
@@ -934,7 +934,7 @@
       "botanical_name": "Oenothera biennis L.; Oenothera lamarckiana L.",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Oleae folium",
@@ -942,7 +942,7 @@
       "botanical_name": "Olea europaea L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Ononidis radix",
@@ -950,7 +950,7 @@
       "botanical_name": "Ononis spinosa L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Origani dictamni herba",
@@ -958,7 +958,7 @@
       "botanical_name": "Origanum dictamnus L.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Origani majoranae herba",
@@ -966,7 +966,7 @@
       "botanical_name": "Origanum majorana L.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Orthosiphonis folium",
@@ -974,7 +974,7 @@
       "botanical_name": "Orthosiphon aristatus (Blume) Miq. var. aristatus",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Paeoniae radix alba",
@@ -982,7 +982,7 @@
       "botanical_name": "Paeonia lactiflora Pallas",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Paeoniae radix rubra",
@@ -990,7 +990,7 @@
       "botanical_name": "Paeonia lactiflora Pall.; Paeonia veitchii Lynch",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Passiflorae herba",
@@ -998,7 +998,7 @@
       "botanical_name": "Passiflora incarnata L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Paulliniae semen",
@@ -1006,7 +1006,7 @@
       "botanical_name": "Paullinia cupana Kunth; syn. Paullinia sorbilis Mart",
       "therapeutic_area": ["Fatigue and weakness"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Pelargonii radix",
@@ -1014,7 +1014,7 @@
       "botanical_name": "Pelargonium sidoides DC; Pelargonium reniforme Curt.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Phaseoli fructus (sine semine)",
@@ -1022,7 +1022,7 @@
       "botanical_name": "Phaseolus vulgaris L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Picrorhizae kurroae rhizoma et radix",
@@ -1030,7 +1030,7 @@
       "botanical_name": "Picrorhiza kurroa Royle ex. Benth.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Pilosellae herba cum radice",
@@ -1038,7 +1038,7 @@
       "botanical_name": "Hieracium pilosella L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Piperis methystici rhizoma",
@@ -1046,7 +1046,7 @@
       "botanical_name": "Piper methysticum G. Forst.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Plantaginis lanceolatae folium",
@@ -1054,7 +1054,7 @@
       "botanical_name": "Plantago lanceolata L.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Plantaginis ovatae semen",
@@ -1062,7 +1062,7 @@
       "botanical_name": "Plantago ovata Forssk.",
       "therapeutic_area": ["Constipation"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Plantaginis ovatae seminis tegumentum",
@@ -1070,7 +1070,7 @@
       "botanical_name": "Plantago ovata Forssk.",
       "therapeutic_area": ["Constipation"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Polygoni avicularis herba",
@@ -1078,7 +1078,7 @@
       "botanical_name": "Polygonum aviculare L.",
       "therapeutic_area": ["Mouth and throat disorders", "Urinary tract and genital disorders", "Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Polypodii rhizoma",
@@ -1086,7 +1086,7 @@
       "botanical_name": "Polypodium vulgare L.",
       "therapeutic_area": ["Cough and cold", "Constipation"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Primulae flos",
@@ -1094,7 +1094,7 @@
       "botanical_name": "Primula veris L.; Primula elatior (L.) Hill",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Primulae radix",
@@ -1102,7 +1102,7 @@
       "botanical_name": "Primula veris L.; Primula elatior (L.) Hill",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Pruni africanae cortex",
@@ -1110,7 +1110,7 @@
       "botanical_name": "Prunus africana (Hook f.) Kalkm.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Prunus avium peduncle",
@@ -1118,7 +1118,7 @@
       "botanical_name": "Prunus avium L.; Prunus cerasus L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Psyllii semen",
@@ -1126,7 +1126,7 @@
       "botanical_name": "Plantago afra L.; Plantago indica L.",
       "therapeutic_area": ["Constipation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Quercus cortex",
@@ -1134,7 +1134,7 @@
       "botanical_name": "Quercus robur L.; Quercus petraea (Matt.) Liebl.; Quercus pubescens Willd.",
       "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rhamni purshianae cortex",
@@ -1142,7 +1142,7 @@
       "botanical_name": "Rhamnus purshianus D.C.",
       "therapeutic_area": ["Constipation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rhei radix",
@@ -1150,7 +1150,7 @@
       "botanical_name": "Rheum palmatum L.; Rheum officinale Baillon",
       "therapeutic_area": ["Constipation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rhodiolae roseae rhizoma et radix",
@@ -1158,7 +1158,7 @@
       "botanical_name": "Rhodiola rosea L.",
       "therapeutic_area": ["Fatigue and weakness", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Ribis nigri folium",
@@ -1166,7 +1166,7 @@
       "botanical_name": "Ribes nigrum L.",
       "therapeutic_area": ["Pain and inflammation", "Urinary tract and genital disorders"],
       "ema_status": "P: Draft published",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Ricini oleum",
@@ -1174,7 +1174,7 @@
       "botanical_name": "Ricinus communis L.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rosae flos",
@@ -1182,7 +1182,7 @@
       "botanical_name": "Rosa centifolia L.; Rosa gallica L.; Rosa damascena Mill.",
       "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rosmarini aetheroleum",
@@ -1190,7 +1190,7 @@
       "botanical_name": "Rosmarinus officinalis L.",
       "therapeutic_area": ["Circulatory disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rosmarini folium",
@@ -1198,7 +1198,7 @@
       "botanical_name": "Rosmarinus officinalis L.",
       "therapeutic_area": ["Circulatory disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rubi idaei folium",
@@ -1206,7 +1206,7 @@
       "botanical_name": "Rubus idaeus L.",
       "therapeutic_area": ["Mouth and throat disorders", "Pain and inflammation", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Rusci rhizoma",
@@ -1214,7 +1214,7 @@
       "botanical_name": "Ruscus aculeatus L.",
       "therapeutic_area": ["Circulatory disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Sabalis serrulatae fructus",
@@ -1222,7 +1222,7 @@
       "botanical_name": "Serenoa repens (W.Bartram) Small (syn. Sabal serrulata (Michx.) Schult.f.)",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Saccharomyces cerevisiae CBS 5926",
@@ -1230,7 +1230,7 @@
       "botanical_name": "Saccharomyces cerevisiae CBS 5926",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Salicis cortex",
@@ -1238,7 +1238,7 @@
       "botanical_name": "Salix [various species including S. purpurea L.; S. daphnoides Vill.; S. fragilis L.]",
       "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Salviae miltiorrhizae radix et rhizoma",
@@ -1246,7 +1246,7 @@
       "botanical_name": "Salvia miltiorrhiza Bunge",
       "therapeutic_area": ["Pain and inflammation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Salviae officinalis aetheroleum",
@@ -1254,7 +1254,7 @@
       "botanical_name": "Salvia officinalis L.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Salviae officinalis folium",
@@ -1262,7 +1262,7 @@
       "botanical_name": "Salvia officinalis L.",
       "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Salviae trilobae folium",
@@ -1270,7 +1270,7 @@
       "botanical_name": "Salvia fructicosa Mill. (syn. Salvia triloba L. fil)",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Sambuci flos",
@@ -1278,7 +1278,7 @@
       "botanical_name": "Sambucus nigra L.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Sambuci fructus",
@@ -1286,7 +1286,7 @@
       "botanical_name": "Sambucus nigra L.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Sennae folium",
@@ -1294,7 +1294,7 @@
       "botanical_name": "Cassia senna L.; Cassia angustifolia Vahl",
       "therapeutic_area": ["Constipation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Sennae fructus",
@@ -1302,7 +1302,7 @@
       "botanical_name": "Cassia senna L.; Cassia angustifolia Vahl",
       "therapeutic_area": ["Constipation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Sideritis herba",
@@ -1310,7 +1310,7 @@
       "botanical_name": "Sideritis scardica Griseb.; Sideritis clandestina (Bory & Chaub.) Hayek; Sideritis raeseri Boiss. & Heldr.; Sideritis syriaca L.",
       "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Silybi mariani fructus",
@@ -1318,7 +1318,7 @@
       "botanical_name": "Silybum marianum L. Gaertn.",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Sisymbrii officinalis herba",
@@ -1326,7 +1326,7 @@
       "botanical_name": "Sisymbrium officinale (L.) Scop.",
       "therapeutic_area": ["Mouth and throat disorders", "Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Soiae oleum raffinatum",
@@ -1334,7 +1334,7 @@
       "botanical_name": "Glycine max (L.) Merr., oleum",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "D: Draft under discussion",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Solani dulcamarae stipites",
@@ -1342,7 +1342,7 @@
       "botanical_name": "Solanum dulcamara L.",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Solidaginis virgaureae herba",
@@ -1350,7 +1350,7 @@
       "botanical_name": "Solidago virgaurea L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Species amarae",
@@ -1358,7 +1358,7 @@
       "botanical_name": "",
       "therapeutic_area": ["Loss of appetite"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Species digestivae",
@@ -1366,7 +1366,7 @@
       "botanical_name": "",
       "therapeutic_area": ["Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Species diureticae",
@@ -1374,7 +1374,7 @@
       "botanical_name": "Combination: maximum 4 out of 13 possible plants",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "D: Draft under discussion",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Species sedativae",
@@ -1382,7 +1382,7 @@
       "botanical_name": "",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Symphyti radix",
@@ -1390,7 +1390,7 @@
       "botanical_name": "Symphytum officinale L.",
       "therapeutic_area": ["Pain and inflammation"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Tanaceti parthenii herba",
@@ -1398,7 +1398,7 @@
       "botanical_name": "Tanacetum parthenium (L.) Schultz Bip.",
       "therapeutic_area": ["Pain and inflammation"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Taraxaci folium",
@@ -1406,7 +1406,7 @@
       "botanical_name": "Taraxacum officinale Weber ex Wigg.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Taraxaci officinalis radix",
@@ -1414,7 +1414,7 @@
       "botanical_name": "Taraxacum officinale F.H. Wigg.",
       "therapeutic_area": ["Loss of appetite", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Taraxaci radix cum herba",
@@ -1422,7 +1422,7 @@
       "botanical_name": "Taraxacum officinale Weber ex Wigg.",
       "therapeutic_area": ["Loss of appetite", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Thymi aetheroleum",
@@ -1430,7 +1430,7 @@
       "botanical_name": "Thymus vulgaris L.; Thymus zygis L.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Thymi herba",
@@ -1438,7 +1438,7 @@
       "botanical_name": "Thymus vulgaris L.; Thymus zygis L.",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Thymi herba and Primulae radix",
@@ -1446,7 +1446,7 @@
       "botanical_name": "Combination: Thymus vulgaris L.; Thymus zygis L. and Primula veris L.; Primula elatior (L.) Hill",
       "therapeutic_area": ["Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Tiliae flos",
@@ -1454,7 +1454,7 @@
       "botanical_name": "Tilia cordata Miller; Tilia platyphyllos Scop.; Tilia x vulgaris Heyne",
       "therapeutic_area": ["Cough and cold", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Tiliae tomentosae flos",
@@ -1462,7 +1462,7 @@
       "botanical_name": "Tilia tomentosa Moench",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Tormentillae rhizoma",
@@ -1470,7 +1470,7 @@
       "botanical_name": "Potentilla erecta (L.) Raeusch.",
       "therapeutic_area": ["Mouth and throat disorders", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Tribuli terrestris herba",
@@ -1478,7 +1478,7 @@
       "botanical_name": "Tribulus terrestris L.",
       "therapeutic_area": ["Urinary tract and gynaecology disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Trigonellae foenugraeci semen",
@@ -1486,7 +1486,7 @@
       "botanical_name": "Trigonella foenum-graecum L.",
       "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Uncariae tomentosae cortex",
@@ -1494,7 +1494,7 @@
       "botanical_name": "Uncaria tomentosa (Willd. ex Schult.) DC.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Urticae folium",
@@ -1502,7 +1502,7 @@
       "botanical_name": "Urtica dioica L.; Urtica urens L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Urticae herba",
@@ -1510,7 +1510,7 @@
       "botanical_name": "Urtica dioica L.; Urtica urens L.",
       "therapeutic_area": ["Pain and inflammation", "Skin disorders and minor wounds", "Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Urticae radix",
@@ -1518,7 +1518,7 @@
       "botanical_name": "Urtica dioica L.; Urtica urens L.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Uvae ursi folium",
@@ -1526,7 +1526,7 @@
       "botanical_name": "Arctostaphylos uva-ursi (L.) Spreng.",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Vaccinii macrocarpi fructus",
@@ -1534,7 +1534,7 @@
       "botanical_name": "Vaccinium macrocarpon Aiton",
       "therapeutic_area": ["Urinary tract and genital disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Valerianae aetheroleum",
@@ -1542,7 +1542,7 @@
       "botanical_name": "Valeriana officinalis L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Valerianae radix",
@@ -1550,7 +1550,7 @@
       "botanical_name": "Valeriana officinalis L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Valerianae radix and Lupuli flos",
@@ -1558,7 +1558,7 @@
       "botanical_name": "Combination: Valeriana officinalis L. and Humulus lupulus L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Valerianae radix and Passiflorae herba",
@@ -1566,7 +1566,7 @@
       "botanical_name": "Combination: Valeriana officinalis L. and Passiflora incarnata L.",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Verbenae citriodorae folium",
@@ -1574,7 +1574,7 @@
       "botanical_name": "Aloysia citrodora Paláu (syn. Aloysia triphylla (L'Hér.) Kuntze; Verbena triphylla L'Hér.; Lippia citriodora Kunth)",
       "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders", "Gastrointestinal disorders"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Verbasci flos",
@@ -1582,7 +1582,7 @@
       "botanical_name": "Verbascum thapsus L.; V. densiflorum Bertol. (V. thapsiforme Schrad); V. phlomoides L.",
       "therapeutic_area": ["Mouth and throat disorders", "Cough and cold"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Violae herba cum flore",
@@ -1590,7 +1590,7 @@
       "botanical_name": "Viola tricolor L.; Viola arvensis Murray (Gaud); Viola vulgaris Koch (Oborny)",
       "therapeutic_area": ["Skin disorders and minor wounds"],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Visci albi herba",
@@ -1598,7 +1598,7 @@
       "botanical_name": "Viscum album L.",
       "therapeutic_area": [],
       "ema_status": "F: Assessment finalised",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Vitis viniferae folium",
@@ -1606,7 +1606,7 @@
       "botanical_name": "Vitis vinifera L.",
       "therapeutic_area": ["Circulatory disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": "ja"
     },
     {
       "latin_name": "Withaniae somniferae radix",
@@ -1614,7 +1614,7 @@
       "botanical_name": "Withania somnifera (L.) Dunal",
       "therapeutic_area": [],
       "ema_status": "",
-      "de_registered": true
+      "de_registered": "ja"
     }
   ]
 }
