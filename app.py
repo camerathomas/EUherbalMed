@@ -106,6 +106,7 @@ st.sidebar.header("Zoeken")
 
 zoekterm = st.sidebar.text_input(
     "Zoek op naam, indicatie of werkstof",
+    placeholder="bijv. Ginkgo biloba, dementie, silymarine …",
     help="Typ een deel van de Latijnse naam, de Nederlandse naam, de indicatie of de werkstof.",
 )
 
