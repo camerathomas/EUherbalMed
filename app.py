@@ -55,7 +55,8 @@ df["therapeutic_area_str"] = df["therapeutic_area"].fillna("").astype(str)
 # Lege EMA-status leesbaar maken
 df["ema_status"] = df["ema_status"].fillna("Geen status").replace("", "Geen status")
 
-# GEEN rename: de_registered blijft de_registered
+# Duitse registratie: overal "ja"
+df["de_registered"] = "ja"
 # ---------------------------------------------------------------------------
 # Zijbalk: zoekfunctie
 # ---------------------------------------------------------------------------
