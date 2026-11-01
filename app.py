@@ -54,6 +54,9 @@ df["therapeutic_area"] = df["therapeutic_area"].apply(
 )
 df["therapeutic_area_str"] = df["therapeutic_area"].fillna("").astype(str)
 
+# Duitse registratie leesbaar maken
+df["Gebruikt in Duitsland"] = df["de_registered"].map({True: "Ja", False: "Nee"})
+df = df.drop(columns=["de_registered"])
 
 # --- Duitse data erbij laden ---
 @st.cache_data
