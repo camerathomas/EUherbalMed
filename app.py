@@ -35,12 +35,12 @@ records = load_records()
 df = pd.DataFrame(records)
 
 verwachte_kolommen = [
-    "latin_name",
-    "dutch_common_name",
-    "english_common_name",
-    "botanical_name",
-    "therapeutic_area",
-    "ema_status",
+  "latin_name",
+      "dutch_common_name",
+      "botanical_name",
+      "therapeutic_area",
+      "ema_status",
+      "de_registered",
 ]
 for kolom in verwachte_kolommen:
     if kolom not in df.columns:
