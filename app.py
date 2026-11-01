@@ -153,9 +153,12 @@ else:
         st.warning("Je hebt meerdere planten aangevinkt. Alleen de eerste wordt getoond.")
 
     rij = geselecteerd.iloc[0]
-    st.markdown(f"### {rij.get('latin_name', 'Onbekend')}")
+    st.markdown(f"### {rij.get('Latijnse naam', 'Onbekend')}")
 
-    for kolom in df.columns:
+    for kolom in rij.index:
+        if kolom == "Selecteer":
+            continue
+
         waarde = rij[kolom]
 
         if waarde is None:
@@ -164,7 +167,6 @@ else:
             continue
         if isinstance(waarde, str) and waarde.strip() == "":
             continue
-
         if isinstance(waarde, list):
             waarde = ", ".join(str(w) for w in waarde)
 
