@@ -287,9 +287,22 @@ else:
     if len(geselecteerd) > 1:
         st.warning("Je hebt meerdere planten aangevinkt. Alleen de eerste wordt getoond.")
 
+    # De rij uit de tabel (met de mooie kolomnamen)
     rij = geselecteerd.iloc[0]
-    st.markdown(f"### {rij.get('Latijnse naam', 'Onbekend')}")
+    latijnse_naam = rij.get("Latijnse naam", "Onbekend")
 
+    # Zoek het originele record in de JSON-data
+    record = next((r for r in records if r.get("latin_name") == latijnse_naam), None)
+
+    # Toon de titel
+    st.markdown(f"### {latijnse_naam}")
+
+    # Toon de EMA-link als die er is
+    if record and record.get("ema_url"):
+        st.markdown(f"🔗 [Bekijk de EMA-monografie]({record['ema_url']})")
+        st.write("")  # witregeltje
+
+    # Toon de rest van de gegevens (de kolommen uit de tabel)
     for kolom in rij.index:
         if kolom == "Selecteer":
             continue
@@ -306,7 +319,6 @@ else:
             waarde = ", ".join(str(w) for w in waarde)
 
         st.markdown(f"**{kolom}:** {waarde}")
-
 
 # ---------------------------------------------------------------------------
 # Disclaimer
