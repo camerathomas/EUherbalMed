@@ -49,10 +49,6 @@ for kolom in verwachte_kolommen:
 # Houd alleen deze kolommen over, in deze volgorde
 df = df[verwachte_kolommen].copy()
 
-df["therapeutic_area_str"] = df["therapeutic_area"].apply(
-    lambda x: ", ".join(x) if isinstance(x, list) else (x or "")
-)
-
 # --- Duitse data erbij laden ---
 INDICATIES_JSON = Path(__file__).parent / "planten_indicaties.json"
 
@@ -64,20 +60,17 @@ def load_duitse_data() -> list[dict]:
 duitse_records = load_duitse_data()
 
 def normaliseer(naam: str) -> str:
-    """Neem de eerste twee woorden (geslacht + soort), kleine letters."""
     if not naam:
         return ""
     woorden = str(naam).strip().lower().split()
     return " ".join(woorden[:2])
 
-# Map op genormaliseerde Latijnse naam
 duits_map = {}
 for rij in duitse_records:
     latijn = normaliseer(rij.get("Wirkstoff", ""))
     if latijn:
         duits_map[latijn] = rij
 
-# Vul de twee Duitse kolommen op basis van botanical_name
 df["Gebruik in Duitsland"] = df["botanical_name"].apply(
     lambda x: duits_map.get(normaliseer(x), {}).get("Indicatie")
 )
