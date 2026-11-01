@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import json
+import re
 from pathlib import Path
 
 # ---------------------------------------------------------------------------
@@ -13,7 +14,7 @@ st.set_page_config(
 )
 
 BASE_DIR = Path(__file__).parent
-DATA_FILE = BASE_DIR / "planten_data.json"
+DATA_FILE = BASE_DIR / "ema_herbal_medicines.json"
 INDICATIES_JSON = BASE_DIR / "planten_indicaties.json"
 WAAROM_MD = BASE_DIR / "waarom_deze_app.md"
 
@@ -34,84 +35,70 @@ records = load_records()
 df = pd.DataFrame(records)
 
 verwachte_kolommen = [
+    "latin_name",
     "dutch_common_name",
     "english_common_name",
     "botanical_name",
     "therapeutic_area",
     "ema_status",
-    "Gebruik in Duitsland",
-    "Status in Duitsland",
+    "notes",
 ]
 for kolom in verwachte_kolommen:
     if kolom not in df.columns:
         df[kolom] = None
 
-# Houd alleen deze kolommen over, in deze volgorde
 df = df[verwachte_kolommen].copy()
 
-# --- Duitse data erbij laden ---
-INDICATIES_JSON = Path(__file__).parent / "planten_indicaties.json"
+# Lijst met therapeutische gebieden -> leesbare tekst (ook voor zoeken)
+df["therapeutic_area"] = df["therapeutic_area"].apply(
+    lambda x: ", ".join(x) if isinstance(x, list) else x
+)
+df["therapeutic_area_str"] = df["therapeutic_area"].fillna("").astype(str)
 
+
+# --- Duitse data erbij laden ---
 @st.cache_data
 def load_duitse_data() -> list[dict]:
     with open(INDICATIES_JSON, "r", encoding="utf-8") as f:
         return json.load(f)
 
-duitse_records = load_duitse_data()
+
+def soort_sleutel(naam) -> str:
+    """Genus + soort (kleine letters), bv. 'Betula pendula Roth; ...' -> 'betula pendula'."""
+    if naam is None or (isinstance(naam, float) and pd.isna(naam)):
+        return ""
+    eerste = re.split(r"[;(\[]| and ", str(naam))[0]
+    woorden = re.findall(r"[A-Za-z\-]+", eerste)
+    return " ".join(w.lower() for w in woorden[:2])
+
 
 duits_map = {}
-for rij in duitse_records:
-    latijn = str(rij.get("botanical_name", "")).strip().lower()
-    if latijn:
-        duits_map[latijn] = rij
-
-df["Gebruik in Duitsland"] = df["botanical_name"].apply(
-    lambda x: duits_map.get(str(x).strip().lower(), {}).get("Indicatie")
-)
-df["Status in Duitsland"] = df["botanical_name"].apply(
-    lambda x: duits_map.get(str(x).strip().lower(), {}).get("EMA_status")
-)
-
-# ---------------------------------------------------------------------------
-# Aanvulling: indicaties en EMA-status uit aparte JSON (veilig, zonder merge)
-# ---------------------------------------------------------------------------
-@st.cache_data
-def laad_indicaties() -> pd.DataFrame:
-    if not INDICATIES_JSON.exists():
-        st.warning(f"Het bestand '{INDICATIES_JSON.name}' kon niet worden gevonden.")
-        return pd.DataFrame()
-    with open(INDICATIES_JSON, encoding="utf-8") as f:
-        return pd.DataFrame(json.load(f))
-
-
-df_indicaties = laad_indicaties()
-
-# Voeg de kolommen Indicatie en EMA_status toe aan df, op basis van de Latijnse naam
-if not df_indicaties.empty and "Wirkstoff" in df_indicaties.columns:
-    # Hernoem voor de zekerheid naar een eenduidige sleutel
-    df_indicaties = df_indicaties.rename(columns={"Wirkstoff": "latin_key"})
-    df_indicaties["latin_key"] = df_indicaties["latin_key"].astype(str).str.strip().str.lower()
-
-    # Zorg dat df een vergelijkbare sleutel heeft
-    if "latin_name" in df.columns:
-        df["latin_key"] = df["latin_name"].astype(str).str.strip().str.lower()
-    else:
-        df["latin_key"] = None
-
-    # Map van latin_key naar Indicatie en EMA_status
-    indicatie_map = dict(zip(df_indicaties["latin_key"], df_indicaties.get("Indicatie", [None] * len(df_indicaties))))
-    ema_map = dict(zip(df_indicaties["latin_key"], df_indicaties.get("EMA_status", [None] * len(df_indicaties))))
-
-    df["Indicatie"] = df["latin_key"].map(indicatie_map)
-    df["EMA_status"] = df["latin_key"].map(ema_map)
-
-    # Opruimen
-    df = df.drop(columns=["latin_key"])
+if INDICATIES_JSON.exists():
+    for rij in load_duitse_data():
+        sleutel = soort_sleutel(rij.get("botanical_name"))
+        if sleutel:
+            duits_map[sleutel] = rij
 else:
-    if "Indicatie" not in df.columns:
-        df["Indicatie"] = None
-    if "EMA_status" not in df.columns:
-        df["EMA_status"] = None
+    st.warning(f"Het bestand '{INDICATIES_JSON.name}' kon niet worden gevonden.")
+
+
+# Reserve-sleutel op geslacht, voor EMA-namen zonder soort (bv. 'Salix [various species ...]')
+duits_geslacht_map = {}
+for _sleutel, _rij in duits_map.items():
+    duits_geslacht_map.setdefault(_sleutel.split()[0], _rij)
+
+
+def zoek_duits(botanisch, veld):
+    sleutel = soort_sleutel(botanisch)
+    rij = duits_map.get(sleutel)
+    if rij is None and sleutel and " " not in sleutel:
+        rij = duits_geslacht_map.get(sleutel)
+    return rij.get(veld) if rij else None
+
+
+GEEN_DATA = "–"
+df["Gebruik in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "Indicatie")).fillna(GEEN_DATA)
+df["Status in Duitsland"] = df["botanical_name"].apply(lambda x: zoek_duits(x, "EMA_status")).fillna(GEEN_DATA)
 
 # ---------------------------------------------------------------------------
 # Zijbalk: zoekfunctie
