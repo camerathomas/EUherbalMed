@@ -59,23 +59,17 @@ def load_duitse_data() -> list[dict]:
 
 duitse_records = load_duitse_data()
 
-def normaliseer(naam: str) -> str:
-    if not naam:
-        return ""
-    woorden = str(naam).strip().lower().split()
-    return " ".join(woorden[:2])
-
 duits_map = {}
 for rij in duitse_records:
-    latijn = normaliseer(rij.get("Wirkstoff", ""))
+    latijn = str(rij.get("botanical_name", "")).strip().lower()
     if latijn:
         duits_map[latijn] = rij
 
 df["Gebruik in Duitsland"] = df["botanical_name"].apply(
-    lambda x: duits_map.get(normaliseer(x), {}).get("Indicatie")
+    lambda x: duits_map.get(str(x).strip().lower(), {}).get("Indicatie")
 )
 df["Status in Duitsland"] = df["botanical_name"].apply(
-    lambda x: duits_map.get(normaliseer(x), {}).get("EMA_status")
+    lambda x: duits_map.get(str(x).strip().lower(), {}).get("EMA_status")
 )
 
 # ---------------------------------------------------------------------------
