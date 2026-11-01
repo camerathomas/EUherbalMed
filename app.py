@@ -52,19 +52,10 @@ df["therapeutic_area"] = df["therapeutic_area"].apply(
 )
 df["therapeutic_area_str"] = df["therapeutic_area"].fillna("").astype(str)
 
-# Duitse registratie leesbaar maken
-if "de_registered" in df.columns:
-    df["Gebruikt in Duitsland"] = df["de_registered"].map(
-        {True: "Ja", False: "Nee"}
-    ).fillna("–")
-    df = df.drop(columns=["de_registered"])
-else:
-    df["Gebruikt in Duitsland"] = "–"
-
 # Lege EMA-status leesbaar maken
 df["ema_status"] = df["ema_status"].replace("", "Geen status")
 
-
+df = df.rename(columns={"de_registered": "Gebruikt in Duitsland"})
 # ---------------------------------------------------------------------------
 # Zijbalk: zoekfunctie
 # ---------------------------------------------------------------------------
