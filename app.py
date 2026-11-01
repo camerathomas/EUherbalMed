@@ -63,19 +63,26 @@ def load_duitse_data() -> list[dict]:
 
 duitse_records = load_duitse_data()
 
-# Map op botanische naam (Duitse JSON gebruikt "Wirkstoff")
+def normaliseer(naam: str) -> str:
+    """Neem de eerste twee woorden (geslacht + soort), kleine letters."""
+    if not naam:
+        return ""
+    woorden = str(naam).strip().lower().split()
+    return " ".join(woorden[:2])
+
+# Map op genormaliseerde Latijnse naam
 duits_map = {}
 for rij in duitse_records:
-    latijn = str(rij.get("Wirkstoff", "")).strip().lower()
+    latijn = normaliseer(rij.get("Wirkstoff", ""))
     if latijn:
         duits_map[latijn] = rij
 
 # Vul de twee Duitse kolommen op basis van botanical_name
 df["Gebruik in Duitsland"] = df["botanical_name"].apply(
-    lambda x: duits_map.get(str(x).strip().lower(), {}).get("Indicatie")
+    lambda x: duits_map.get(normaliseer(x), {}).get("Indicatie")
 )
 df["Status in Duitsland"] = df["botanical_name"].apply(
-    lambda x: duits_map.get(str(x).strip().lower(), {}).get("EMA_status")
+    lambda x: duits_map.get(normaliseer(x), {}).get("EMA_status")
 )
 
 # ---------------------------------------------------------------------------
