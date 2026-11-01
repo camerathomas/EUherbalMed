@@ -1,0 +1,1620 @@
+{
+  "meta": {
+    "total_records": 160,
+    "part": 1,
+    "of": 4,
+    "dedup_key": "latin_name",
+    "status_priority": "F > C > D > P > R > leeg",
+    "timestamp": "2026-10-31T19:30:00Z"
+  },
+  "data": [
+    {
+      "latin_name": "Absinthii herba",
+      "dutch_common_name": "Absintalsem",
+      "botanical_name": "Artemisia absinthium L.",
+      "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Adhatodae vasicae folium",
+      "dutch_common_name": "Malabarnootblad",
+      "botanical_name": "Adhatoda vasica Nees",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Agni casti fructus",
+      "dutch_common_name": "Monnikspepervrucht",
+      "botanical_name": "Vitex agnus-castus L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Agrimoniae herba",
+      "dutch_common_name": "Agrimonie",
+      "botanical_name": "Agrimonia eupatoria L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Agropyri repentis rhizoma",
+      "dutch_common_name": "Kweekwortelstok",
+      "botanical_name": "Agropyron repens (L.) P. Beauv.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Allii cepae bulbus",
+      "dutch_common_name": "Ui",
+      "botanical_name": "Allium cepa L.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Allii sativi bulbus",
+      "dutch_common_name": "Knoflook",
+      "botanical_name": "Allium sativum L.",
+      "therapeutic_area": ["Cough and cold", "Circulatory disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Aloes folii succus siccatus",
+      "dutch_common_name": "Gedroogd aloësap",
+      "botanical_name": "Aloe barbadensis Mill. and Aloe (various species)",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Althaeae radix",
+      "dutch_common_name": "Heemstwortel",
+      "botanical_name": "Althaea officinalis L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Andrographidis paniculatae folium",
+      "dutch_common_name": "Kalmegh",
+      "botanical_name": "Andrographis paniculata Nees",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Angelicae sinensis radix",
+      "dutch_common_name": "Chinese engelwortel",
+      "botanical_name": "Angelica sinensis (Oliv.) Diels",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Anisi aetheroleum",
+      "dutch_common_name": "Anijsolie",
+      "botanical_name": "Pimpinella anisum L.",
+      "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Anisi fructus",
+      "dutch_common_name": "Anijszaad",
+      "botanical_name": "Pimpinella anisum L.",
+      "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Arctii radix",
+      "dutch_common_name": "Grote kliswortel",
+      "botanical_name": "Arctium lappa L.",
+      "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds", "Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Arnicae flos",
+      "dutch_common_name": "Valkruidbloem",
+      "botanical_name": "Arnica montana L.",
+      "therapeutic_area": ["Pain and inflammation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Avenae fructus",
+      "dutch_common_name": "Havervrucht",
+      "botanical_name": "Avena sativa L.",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Avenae herba",
+      "dutch_common_name": "Haverkruid",
+      "botanical_name": "Avena sativa L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Balsamum peruvianum",
+      "dutch_common_name": "Perubalsem",
+      "botanical_name": "Myroxylon balsamum (L.) Harms var. perierae (Royle) Harms",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Betulae folium",
+      "dutch_common_name": "Berkenblad",
+      "botanical_name": "Betula pendula Roth; Betula pubescens Ehrh.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Boldi folium",
+      "dutch_common_name": "Boldoblad",
+      "botanical_name": "Peumus boldus Molina",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Bursae pastoris herba",
+      "dutch_common_name": "Herderstasjekruid",
+      "botanical_name": "Capsella bursa-pastoris (L.) Medik.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Calendulae flos",
+      "dutch_common_name": "Goudsbloembloem",
+      "botanical_name": "Calendula officinalis L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Calendulae herba",
+      "dutch_common_name": "Goudsbloemkruid",
+      "botanical_name": "Calendula officinalis L.",
+      "therapeutic_area": [],
+      "ema_status": "D: Draft under discussion",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Camelliae sinensis non fermentatum folium",
+      "dutch_common_name": "Groene thee",
+      "botanical_name": "Camellia sinensis (L.) Kuntze",
+      "therapeutic_area": ["Fatigue and weakness"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cannabis flos",
+      "dutch_common_name": "Cannabisbloem",
+      "botanical_name": "Cannabis sativa L.",
+      "therapeutic_area": [],
+      "ema_status": "D: Draft under discussion",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Capsici fructus",
+      "dutch_common_name": "Cayennepeper",
+      "botanical_name": "Capsicum annuum L. var. minimum (Miller) Heiser",
+      "therapeutic_area": ["Pain and inflammation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Carvi aetheroleum",
+      "dutch_common_name": "Karwijolie",
+      "botanical_name": "Carum carvi L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Carvi fructus",
+      "dutch_common_name": "Karwijzaad",
+      "botanical_name": "Carum carvi L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Caryophylli floris aetheroleum",
+      "dutch_common_name": "Kruidnagelolie",
+      "botanical_name": "Syzygium aromaticum (L.) Merr. et L.M. Perry",
+      "therapeutic_area": ["Mouth and throat disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Caryophylli flos",
+      "dutch_common_name": "Kruidnagel",
+      "botanical_name": "Syzygium aromaticum (L.) Merr. et L.M.Perry",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Centaurii herba",
+      "dutch_common_name": "Duizendguldenkruid",
+      "botanical_name": "Centaurium erythraea Rafn. s.l.",
+      "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Centellae asiaticae herba",
+      "dutch_common_name": "Centellakruid",
+      "botanical_name": "Centella asiatica (L.) Urb.",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Chamomillae romanae flos",
+      "dutch_common_name": "Roomse kamillebloem",
+      "botanical_name": "Chamaemelum nobile (L.) All. (Anthemis nobilis L.)",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Chelidonii herba",
+      "dutch_common_name": "Stinkende gouwe",
+      "botanical_name": "Chelidonium majus L.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cichorii intybi radix",
+      "dutch_common_name": "Cichoreiwortel",
+      "botanical_name": "Cichorium intybus L.",
+      "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cimicifugae rhizoma",
+      "dutch_common_name": "Zilverkaars",
+      "botanical_name": "Cimicifuga racemosa (L.) Nutt.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cinnamomi cortex",
+      "dutch_common_name": "Kaneelbast",
+      "botanical_name": "Cinnamomum verum J. S. Presl",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cinnamomi corticis aetheroleum",
+      "dutch_common_name": "Kaneelbastolie",
+      "botanical_name": "Cinnamomum verum J. S. Presl; Cinnamomum zeylanicum Nees",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cisti cretici herba",
+      "dutch_common_name": "Cistusroos",
+      "botanical_name": "Cistus creticus L.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Citri bergamiae aetheroleum",
+      "dutch_common_name": "Bergamotolie",
+      "botanical_name": "Citrus bergamia Risso & Poiteau.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cnici benedicti herba",
+      "dutch_common_name": "Gezegende distel",
+      "botanical_name": "Cnicus benedictus L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Colae semen",
+      "dutch_common_name": "Colanoot",
+      "botanical_name": "Cola nitida (Vent.) Schott et Endl.; Cola acuminata (P. Beauv.) Schott et Endl.",
+      "therapeutic_area": ["Fatigue and weakness"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Combination: Species pectorales",
+      "dutch_common_name": "Borstthee-mengsel",
+      "botanical_name": "",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Crataegi folium cum flore",
+      "dutch_common_name": "Meidoornblad met bloemen",
+      "botanical_name": "Crataegus monogyna Jacq.; C. laevigata (Poir.) DC.; C. pentagyna Waldst. et Kit. ex Willd.; C. azarolus L.",
+      "therapeutic_area": ["Circulatory disorders", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cucurbitae semen",
+      "dutch_common_name": "Pompoenzaad",
+      "botanical_name": "Cucurbita pepo L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Curcumae longae rhizoma",
+      "dutch_common_name": "Kurkumawortelstok",
+      "botanical_name": "Curcuma longa L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Curcumae xanthorrhizae rhizoma",
+      "dutch_common_name": "Javaanse kurkuma",
+      "botanical_name": "Curcuma xanthorrhiza Roxb.; C. xanthorrhiza D. Dietrich",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Cynarae folium",
+      "dutch_common_name": "Artisjokblad",
+      "botanical_name": "Cynara cardunculus L.; syn. C. scolymus L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Echinaceae angustifoliae radix",
+      "dutch_common_name": "Smalbladige zonnehoedwortel",
+      "botanical_name": "Echinacea angustifolia DC.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Echinaceae pallidae radix",
+      "dutch_common_name": "Bleke zonnehoedwortel",
+      "botanical_name": "Echinacea pallida (Nutt.) Nutt.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Echinaceae purpureae herba",
+      "dutch_common_name": "Rode zonnehoedkruid",
+      "botanical_name": "Echinacea purpurea (L.) Moench",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Echinaceae purpureae radix",
+      "dutch_common_name": "Rode zonnehoedwortel",
+      "botanical_name": "Echinacea purpurea (L.) Moench.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Eleutherococci radix",
+      "dutch_common_name": "Siberische ginsengwortel",
+      "botanical_name": "Eleutherococcus senticosus (Rupr. et Maxim.) Maxim.",
+      "therapeutic_area": ["Fatigue and weakness"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Epilobii herba",
+      "dutch_common_name": "Wilgenroosjeskruid",
+      "botanical_name": "Epilobium angustifolium L.; Epilobium parviflorum Schreb.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Equiseti herba",
+      "dutch_common_name": "Paardenstaartkruid",
+      "botanical_name": "Equisetum arvense L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Eschscholziae herba",
+      "dutch_common_name": "Californische klaproos",
+      "botanical_name": "Eschscholzia californica Cham.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Eucalypti aetheroleum",
+      "dutch_common_name": "Eucalyptusolie",
+      "botanical_name": "Eucalyptus globulus Labill.; Eucalyptus polybractea R.T. Baker; Eucalyptus smithii R.T. Baker",
+      "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Eucalypti folium",
+      "dutch_common_name": "Eucalyptusblad",
+      "botanical_name": "Eucalyptus globulus Labill.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Euphrasiae herba",
+      "dutch_common_name": "Ogentroostkruid",
+      "botanical_name": "Euphrasia officinalis L.; Euphrasia rostkoviana Hayne",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Filipendulae ulmariae flos",
+      "dutch_common_name": "Moerasspireabloem",
+      "botanical_name": "Filipendula ulmaria (L.) Maxim. (= Spiraea ulmaria L.)",
+      "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Filipendulae ulmariae herba",
+      "dutch_common_name": "Moerasspireakruid",
+      "botanical_name": "Filipendula ulmaria (L.) Maxim. (= Spiraea ulmaria L.)",
+      "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Foeniculi amari fructus",
+      "dutch_common_name": "Bittere venkelvrucht",
+      "botanical_name": "Foeniculum vulgare Miller subsp. vulgare var. vulgare",
+      "therapeutic_area": ["Urinary tract and genital disorders", "Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Foeniculi amari fructus aetheroleum",
+      "dutch_common_name": "Bittere venkelolie",
+      "botanical_name": "Foeniculum vulgare Miller subsp. vulgare var. vulgare",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Foeniculi dulcis fructus",
+      "dutch_common_name": "Zoete venkelvrucht",
+      "botanical_name": "Foeniculum vulgare Miller subsp. vulgare var. dulce (Mill.) Batt. & Trab.",
+      "therapeutic_area": ["Urinary tract and genital disorders", "Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Fragariae folium",
+      "dutch_common_name": "Bosaardbeiblad",
+      "botanical_name": "Fragaria vesca L.; Fragaria moschata Weston; Fragaria viridis Weston; Fragaria x ananassa (Weston) Duchesne ex Rozier",
+      "therapeutic_area": ["Urinary tract and genital disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Frangulae cortex",
+      "dutch_common_name": "Vuilboom-bast",
+      "botanical_name": "Rhamnus frangula L.",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Fraxini folium",
+      "dutch_common_name": "Essenblad",
+      "botanical_name": "Fraxinus excelsior L.; Fraxinus angustifolia Vahl",
+      "therapeutic_area": ["Pain and inflammation", "Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Fucus",
+      "dutch_common_name": "Blaaswier",
+      "botanical_name": "Fucus vesiculosus L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Fumariae herba",
+      "dutch_common_name": "Duivenkervelkruid",
+      "botanical_name": "Fumaria officinalis L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Gentianae radix",
+      "dutch_common_name": "Gentiaanwortel",
+      "botanical_name": "Gentiana lutea L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Ginkgo folium",
+      "dutch_common_name": "Ginkgoblad",
+      "botanical_name": "Ginkgo biloba L.",
+      "therapeutic_area": ["Circulatory disorders"],
+      "ema_status": "",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Ginseng radix",
+      "dutch_common_name": "Ginsengwortel",
+      "botanical_name": "Panax ginseng C.A.Mey.",
+      "therapeutic_area": ["Fatigue and weakness"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Glycini semen",
+      "dutch_common_name": "Sojaboon",
+      "botanical_name": "Glycine max (L.) Merr.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Grindeliae herba",
+      "dutch_common_name": "Gumweedkruid",
+      "botanical_name": "Grindelia robusta Nutt., Grindelia squarrosa (Pursh) Dunal, Grindelia humilis Hook. et Arn., Grindelia camporum Greene",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Hamamelidis cortex",
+      "dutch_common_name": "Hamamelisbast",
+      "botanical_name": "Hamamelis virginiana L.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Hamamelidis folium",
+      "dutch_common_name": "Hamamelisblad",
+      "botanical_name": "Hamamelis virginiana L.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Hamamelidis folium et cortex aut ramunculus destillatum",
+      "dutch_common_name": "Hamamelis-distillaat",
+      "botanical_name": "Hamamelis virginiana L.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Eye discomfort"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Harpagophyti radix",
+      "dutch_common_name": "Duivelsklauwwortel",
+      "botanical_name": "Harpagophytum procumbens DC.; Harpagophytum zeyheri Decne",
+      "therapeutic_area": ["Loss of appetite", "Pain and inflammation", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Hederae helicis folium",
+      "dutch_common_name": "Klimopblad",
+      "botanical_name": "Hedera helix L.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Helichrysi flos",
+      "dutch_common_name": "Strobloem",
+      "botanical_name": "Helichrysum arenarium (L.) Moench",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Herniariae herba",
+      "dutch_common_name": "Breukkruid",
+      "botanical_name": "Herniaria glabra L.; Herniaria hirsuta L.; Herniaria incana Lam.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Hippocastani cortex",
+      "dutch_common_name": "Paardenkastanjebast",
+      "botanical_name": "Aesculus hippocastanum L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Hippocastani semen",
+      "dutch_common_name": "Paardenkastanjezaad",
+      "botanical_name": "Aesculus hippocastanum L.",
+      "therapeutic_area": ["Circulatory disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Hyperici herba",
+      "dutch_common_name": "Sint-Janskruid",
+      "botanical_name": "Hypericum perforatum L.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Mental stress and mood disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Juglandis folium",
+      "dutch_common_name": "Walnootblad",
+      "botanical_name": "Juglans regia L.",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Juniperi aetheroleum",
+      "dutch_common_name": "Jeneverbesolie",
+      "botanical_name": "Juniperus communis L.",
+      "therapeutic_area": ["Pain and inflammation", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Juniperi galbulus (pseudo-fructus)",
+      "dutch_common_name": "Jeneverbes",
+      "botanical_name": "Juniperus communis L.",
+      "therapeutic_area": ["Digestive disorder", "Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Lavandulae aetheroleum",
+      "dutch_common_name": "Lavendelolie",
+      "botanical_name": "Lavandula angustifolia Mill. (L. officinalis Chaix)",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Lavandulae flos",
+      "dutch_common_name": "Lavendelbloem",
+      "botanical_name": "Lavandula angustifolia Mill. (L. officinalis Chaix)",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Lecithinum ex soya",
+      "dutch_common_name": "Sojalecithine",
+      "botanical_name": "Glycine max (L.) Merr.",
+      "therapeutic_area": ["Fatigue and weakness"],
+      "ema_status": "P: Draft published",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Leonuri cardiacae herba",
+      "dutch_common_name": "Hartgespan",
+      "botanical_name": "Leonurus cardiaca L.",
+      "therapeutic_area": ["Circulatory disorders", "Mental stress and mood disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Levistici radix",
+      "dutch_common_name": "Lavaswortel",
+      "botanical_name": "Levisticum officinale W.D.J.Koch",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Lichen islandicus",
+      "dutch_common_name": "IJslands mos",
+      "botanical_name": "Cetraria islandica (L.) Acharius s.l.",
+      "therapeutic_area": ["Loss of appetite", "Mouth and throat disorders", "Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Lini semen",
+      "dutch_common_name": "Lijnzaad",
+      "botanical_name": "Linum usitatissimum L.",
+      "therapeutic_area": ["Constipation", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Liquiritiae radix",
+      "dutch_common_name": "Zoethoutwortel",
+      "botanical_name": "Glycyrrhiza glabra L.; Glycyrrhiza inflata Bat.; Glycyrrhiza uralensis Fisch.",
+      "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Lupuli flos",
+      "dutch_common_name": "Hopbellen",
+      "botanical_name": "Humulus lupulus L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Malvae folium",
+      "dutch_common_name": "Kaasjeskruidblad",
+      "botanical_name": "Malva sylvestris L.; Malva neglecta Wallr.",
+      "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Malvae sylvestris flos",
+      "dutch_common_name": "Groot kaasjeskruidbloem",
+      "botanical_name": "Malva sylvestris L.",
+      "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Marrubii herba",
+      "dutch_common_name": "Malrove",
+      "botanical_name": "Marrubium vulgare L.",
+      "therapeutic_area": ["Loss of appetite", "Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Mastic",
+      "dutch_common_name": "Mastiek",
+      "botanical_name": "Pistacia lentiscus L.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Mate folium",
+      "dutch_common_name": "Matéblad",
+      "botanical_name": "Ilex paraguariensis A.St.-Hil.",
+      "therapeutic_area": ["Fatigue and weakness", "Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Matricariae aetheroleum",
+      "dutch_common_name": "Kamilleolie",
+      "botanical_name": "Matricaria recutita L.",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Matricariae flos",
+      "dutch_common_name": "Echte kamillebloem",
+      "botanical_name": "Matricaria recutita L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds", "Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Maydis stigma",
+      "dutch_common_name": "Maisstempel",
+      "botanical_name": "Zea mays L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "D: Draft under discussion",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Melaleucae aetheroleum",
+      "dutch_common_name": "Tea tree-olie",
+      "botanical_name": "Melaleuca alternifolia (Maiden and Betche) Cheel",
+      "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Meliloti herba",
+      "dutch_common_name": "Citroengele honingklaver",
+      "botanical_name": "Melilotus officinalis (L.) Lam.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Melissae folium",
+      "dutch_common_name": "Citroenmelisseblad",
+      "botanical_name": "Melissa officinalis L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Menthae piperitae aetheroleum",
+      "dutch_common_name": "Pepermuntolie",
+      "botanical_name": "Mentha x piperita L.",
+      "therapeutic_area": ["Pain and inflammation", "Skin disorders and minor wounds", "Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Menthae piperitae folium",
+      "dutch_common_name": "Pepermuntblad",
+      "botanical_name": "Mentha x piperita L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Menyanthidis trifoliatae folium",
+      "dutch_common_name": "Waterdrieblad",
+      "botanical_name": "Menyanthes trifoliata L.",
+      "therapeutic_area": ["Loss of appetite", "Pain and inflammation", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Millefolii flos",
+      "dutch_common_name": "Duizendbladbloem",
+      "botanical_name": "Achillea millefolium L.",
+      "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Millefolii herba",
+      "dutch_common_name": "Duizendbladkruid",
+      "botanical_name": "Achillea millefolium L.",
+      "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Myrrha",
+      "dutch_common_name": "Mirre",
+      "botanical_name": "Commiphora molmol Engler",
+      "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Myrtilli fructus recens",
+      "dutch_common_name": "Verse bosbes",
+      "botanical_name": "Vaccinium myrtillus L.",
+      "therapeutic_area": ["Circulatory disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Myrtilli fructus siccus",
+      "dutch_common_name": "Gedroogde bosbes",
+      "botanical_name": "Vaccinium myrtillus L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Oenotherae oleum",
+      "dutch_common_name": "Teunisbloemolie",
+      "botanical_name": "Oenothera biennis L.; Oenothera lamarckiana L.",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Oleae folium",
+      "dutch_common_name": "Olijfblad",
+      "botanical_name": "Olea europaea L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Ononidis radix",
+      "dutch_common_name": "Kattenkruidwortel",
+      "botanical_name": "Ononis spinosa L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Origani dictamni herba",
+      "dutch_common_name": "Dictamnuskruid",
+      "botanical_name": "Origanum dictamnus L.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Origani majoranae herba",
+      "dutch_common_name": "Marjoleinkruid",
+      "botanical_name": "Origanum majorana L.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Orthosiphonis folium",
+      "dutch_common_name": "Java-theeblad",
+      "botanical_name": "Orthosiphon aristatus (Blume) Miq. var. aristatus",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Paeoniae radix alba",
+      "dutch_common_name": "Witte pioenwortel",
+      "botanical_name": "Paeonia lactiflora Pallas",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Paeoniae radix rubra",
+      "dutch_common_name": "Rode pioenwortel",
+      "botanical_name": "Paeonia lactiflora Pall.; Paeonia veitchii Lynch",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Passiflorae herba",
+      "dutch_common_name": "Passiebloemkruid",
+      "botanical_name": "Passiflora incarnata L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Paulliniae semen",
+      "dutch_common_name": "Guaranazaad",
+      "botanical_name": "Paullinia cupana Kunth; syn. Paullinia sorbilis Mart",
+      "therapeutic_area": ["Fatigue and weakness"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Pelargonii radix",
+      "dutch_common_name": "Pelargoniumwortel",
+      "botanical_name": "Pelargonium sidoides DC; Pelargonium reniforme Curt.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Phaseoli fructus (sine semine)",
+      "dutch_common_name": "Sperzieboonvrucht (zonder zaad)",
+      "botanical_name": "Phaseolus vulgaris L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Picrorhizae kurroae rhizoma et radix",
+      "dutch_common_name": "Katula-wortelstok",
+      "botanical_name": "Picrorhiza kurroa Royle ex. Benth.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Pilosellae herba cum radice",
+      "dutch_common_name": "Muizenoorkruid met wortel",
+      "botanical_name": "Hieracium pilosella L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Piperis methystici rhizoma",
+      "dutch_common_name": "Kava-kava",
+      "botanical_name": "Piper methysticum G. Forst.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Plantaginis lanceolatae folium",
+      "dutch_common_name": "Smalle weegbreeblad",
+      "botanical_name": "Plantago lanceolata L.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Plantaginis ovatae semen",
+      "dutch_common_name": "Ispaghulzaad",
+      "botanical_name": "Plantago ovata Forssk.",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Plantaginis ovatae seminis tegumentum",
+      "dutch_common_name": "Ispaghulzaadhuid",
+      "botanical_name": "Plantago ovata Forssk.",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Polygoni avicularis herba",
+      "dutch_common_name": "Varkensgras",
+      "botanical_name": "Polygonum aviculare L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Urinary tract and genital disorders", "Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Polypodii rhizoma",
+      "dutch_common_name": "Eikvarenwortelstok",
+      "botanical_name": "Polypodium vulgare L.",
+      "therapeutic_area": ["Cough and cold", "Constipation"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Primulae flos",
+      "dutch_common_name": "Sleutelbloem",
+      "botanical_name": "Primula veris L.; Primula elatior (L.) Hill",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Primulae radix",
+      "dutch_common_name": "Sleutelbloemwortel",
+      "botanical_name": "Primula veris L.; Primula elatior (L.) Hill",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Pruni africanae cortex",
+      "dutch_common_name": "Pygeum-bast",
+      "botanical_name": "Prunus africana (Hook f.) Kalkm.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Prunus avium peduncle",
+      "dutch_common_name": "Kersensteeltjes",
+      "botanical_name": "Prunus avium L.; Prunus cerasus L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Psyllii semen",
+      "dutch_common_name": "Vlozaad",
+      "botanical_name": "Plantago afra L.; Plantago indica L.",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Quercus cortex",
+      "dutch_common_name": "Eikenbast",
+      "botanical_name": "Quercus robur L.; Quercus petraea (Matt.) Liebl.; Quercus pubescens Willd.",
+      "therapeutic_area": ["Skin disorders and minor wounds", "Circulatory disorders", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rhamni purshianae cortex",
+      "dutch_common_name": "Cascara-bast",
+      "botanical_name": "Rhamnus purshianus D.C.",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rhei radix",
+      "dutch_common_name": "Rabarberwortel",
+      "botanical_name": "Rheum palmatum L.; Rheum officinale Baillon",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rhodiolae roseae rhizoma et radix",
+      "dutch_common_name": "Rhodiola-wortelstok en -wortel",
+      "botanical_name": "Rhodiola rosea L.",
+      "therapeutic_area": ["Fatigue and weakness", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Ribis nigri folium",
+      "dutch_common_name": "Zwarte besblad",
+      "botanical_name": "Ribes nigrum L.",
+      "therapeutic_area": ["Pain and inflammation", "Urinary tract and genital disorders"],
+      "ema_status": "P: Draft published",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Ricini oleum",
+      "dutch_common_name": "Wonderolie",
+      "botanical_name": "Ricinus communis L.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rosae flos",
+      "dutch_common_name": "Rozenbloem",
+      "botanical_name": "Rosa centifolia L.; Rosa gallica L.; Rosa damascena Mill.",
+      "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rosmarini aetheroleum",
+      "dutch_common_name": "Rozemarijnolie",
+      "botanical_name": "Rosmarinus officinalis L.",
+      "therapeutic_area": ["Circulatory disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rosmarini folium",
+      "dutch_common_name": "Rozemarijnblad",
+      "botanical_name": "Rosmarinus officinalis L.",
+      "therapeutic_area": ["Circulatory disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rubi idaei folium",
+      "dutch_common_name": "Frambozenblad",
+      "botanical_name": "Rubus idaeus L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Pain and inflammation", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Rusci rhizoma",
+      "dutch_common_name": "Stekelige muizendoornwortelstok",
+      "botanical_name": "Ruscus aculeatus L.",
+      "therapeutic_area": ["Circulatory disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Sabalis serrulatae fructus",
+      "dutch_common_name": "Zaagpalmvrucht",
+      "botanical_name": "Serenoa repens (W.Bartram) Small (syn. Sabal serrulata (Michx.) Schult.f.)",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Saccharomyces cerevisiae CBS 5926",
+      "dutch_common_name": "Biergist (Saccharomyces cerevisiae CBS 5926)",
+      "botanical_name": "Saccharomyces cerevisiae CBS 5926",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Salicis cortex",
+      "dutch_common_name": "Wilgenbast",
+      "botanical_name": "Salix [various species including S. purpurea L.; S. daphnoides Vill.; S. fragilis L.]",
+      "therapeutic_area": ["Pain and inflammation", "Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Salviae miltiorrhizae radix et rhizoma",
+      "dutch_common_name": "Danshen (Salvia miltiorrhiza)",
+      "botanical_name": "Salvia miltiorrhiza Bunge",
+      "therapeutic_area": ["Pain and inflammation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Salviae officinalis aetheroleum",
+      "dutch_common_name": "Salieolie",
+      "botanical_name": "Salvia officinalis L.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Salviae officinalis folium",
+      "dutch_common_name": "Salieblad",
+      "botanical_name": "Salvia officinalis L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Skin disorders and minor wounds", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Salviae trilobae folium",
+      "dutch_common_name": "Driebladige salie",
+      "botanical_name": "Salvia fructicosa Mill. (syn. Salvia triloba L. fil)",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Sambuci flos",
+      "dutch_common_name": "Vlierbloesem",
+      "botanical_name": "Sambucus nigra L.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Sambuci fructus",
+      "dutch_common_name": "Vlierbes",
+      "botanical_name": "Sambucus nigra L.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Sennae folium",
+      "dutch_common_name": "Sennablad",
+      "botanical_name": "Cassia senna L.; Cassia angustifolia Vahl",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Sennae fructus",
+      "dutch_common_name": "Sennavruchten",
+      "botanical_name": "Cassia senna L.; Cassia angustifolia Vahl",
+      "therapeutic_area": ["Constipation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Sideritis herba",
+      "dutch_common_name": "IJzerkruid",
+      "botanical_name": "Sideritis scardica Griseb.; Sideritis clandestina (Bory & Chaub.) Hayek; Sideritis raeseri Boiss. & Heldr.; Sideritis syriaca L.",
+      "therapeutic_area": ["Cough and cold", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Silybi mariani fructus",
+      "dutch_common_name": "Mariadistelvrucht",
+      "botanical_name": "Silybum marianum L. Gaertn.",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Sisymbrii officinalis herba",
+      "dutch_common_name": "Hedge-mosterdkruid",
+      "botanical_name": "Sisymbrium officinale (L.) Scop.",
+      "therapeutic_area": ["Mouth and throat disorders", "Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Soiae oleum raffinatum",
+      "dutch_common_name": "Geraffineerde sojaolie",
+      "botanical_name": "Glycine max (L.) Merr., oleum",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "D: Draft under discussion",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Solani dulcamarae stipites",
+      "dutch_common_name": "Bitterzoetstengel",
+      "botanical_name": "Solanum dulcamara L.",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Solidaginis virgaureae herba",
+      "dutch_common_name": "Echte guldenroede",
+      "botanical_name": "Solidago virgaurea L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Species amarae",
+      "dutch_common_name": "Bittere kruidenthee-mengsels",
+      "botanical_name": "",
+      "therapeutic_area": ["Loss of appetite"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Species digestivae",
+      "dutch_common_name": "Spijsverteringskruidenthee-mengsels",
+      "botanical_name": "",
+      "therapeutic_area": ["Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Species diureticae",
+      "dutch_common_name": "Diuretische kruidenthee-mengsels",
+      "botanical_name": "Combination: maximum 4 out of 13 possible plants",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "D: Draft under discussion",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Species sedativae",
+      "dutch_common_name": "Sedatieve kruidenthee-mengsels",
+      "botanical_name": "",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Symphyti radix",
+      "dutch_common_name": "Smeerwortelwortel",
+      "botanical_name": "Symphytum officinale L.",
+      "therapeutic_area": ["Pain and inflammation"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Tanaceti parthenii herba",
+      "dutch_common_name": "Moederkruid",
+      "botanical_name": "Tanacetum parthenium (L.) Schultz Bip.",
+      "therapeutic_area": ["Pain and inflammation"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Taraxaci folium",
+      "dutch_common_name": "Paardenbloemblad",
+      "botanical_name": "Taraxacum officinale Weber ex Wigg.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Taraxaci officinalis radix",
+      "dutch_common_name": "Paardenbloemwortel",
+      "botanical_name": "Taraxacum officinale F.H. Wigg.",
+      "therapeutic_area": ["Loss of appetite", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Taraxaci radix cum herba",
+      "dutch_common_name": "Paardenbloemwortel met kruid",
+      "botanical_name": "Taraxacum officinale Weber ex Wigg.",
+      "therapeutic_area": ["Loss of appetite", "Urinary tract and genital disorders", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Thymi aetheroleum",
+      "dutch_common_name": "Tijmolie",
+      "botanical_name": "Thymus vulgaris L.; Thymus zygis L.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Thymi herba",
+      "dutch_common_name": "Tijm",
+      "botanical_name": "Thymus vulgaris L.; Thymus zygis L.",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Thymi herba and Primulae radix",
+      "dutch_common_name": "Tijm en sleutelbloemwortel",
+      "botanical_name": "Combination: Thymus vulgaris L.; Thymus zygis L. and Primula veris L.; Primula elatior (L.) Hill",
+      "therapeutic_area": ["Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Tiliae flos",
+      "dutch_common_name": "Lindebloesem",
+      "botanical_name": "Tilia cordata Miller; Tilia platyphyllos Scop.; Tilia x vulgaris Heyne",
+      "therapeutic_area": ["Cough and cold", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Tiliae tomentosae flos",
+      "dutch_common_name": "Zilverlindebloem",
+      "botanical_name": "Tilia tomentosa Moench",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Tormentillae rhizoma",
+      "dutch_common_name": "Tormentilwortelstok",
+      "botanical_name": "Potentilla erecta (L.) Raeusch.",
+      "therapeutic_area": ["Mouth and throat disorders", "Gastrointestinal disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Tribuli terrestris herba",
+      "dutch_common_name": "Punthoofd",
+      "botanical_name": "Tribulus terrestris L.",
+      "therapeutic_area": ["Urinary tract and gynaecology disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Trigonellae foenugraeci semen",
+      "dutch_common_name": "Fenegriekzaad",
+      "botanical_name": "Trigonella foenum-graecum L.",
+      "therapeutic_area": ["Loss of appetite", "Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Uncariae tomentosae cortex",
+      "dutch_common_name": "Kattenklauwbast",
+      "botanical_name": "Uncaria tomentosa (Willd. ex Schult.) DC.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Urticae folium",
+      "dutch_common_name": "Brandnetelblad",
+      "botanical_name": "Urtica dioica L.; Urtica urens L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Urticae herba",
+      "dutch_common_name": "Brandnetelkruid",
+      "botanical_name": "Urtica dioica L.; Urtica urens L.",
+      "therapeutic_area": ["Pain and inflammation", "Skin disorders and minor wounds", "Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Urticae radix",
+      "dutch_common_name": "Brandnetelwortel",
+      "botanical_name": "Urtica dioica L.; Urtica urens L.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Uvae ursi folium",
+      "dutch_common_name": "Berendruifblad",
+      "botanical_name": "Arctostaphylos uva-ursi (L.) Spreng.",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Vaccinii macrocarpi fructus",
+      "dutch_common_name": "Cranberry",
+      "botanical_name": "Vaccinium macrocarpon Aiton",
+      "therapeutic_area": ["Urinary tract and genital disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Valerianae aetheroleum",
+      "dutch_common_name": "Valeriaanolie",
+      "botanical_name": "Valeriana officinalis L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Valerianae radix",
+      "dutch_common_name": "Valeriaanwortel",
+      "botanical_name": "Valeriana officinalis L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Valerianae radix and Lupuli flos",
+      "dutch_common_name": "Valeriaanwortel en hopbellen",
+      "botanical_name": "Combination: Valeriana officinalis L. and Humulus lupulus L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Valerianae radix and Passiflorae herba",
+      "dutch_common_name": "Valeriaanwortel en passiebloemkruid",
+      "botanical_name": "Combination: Valeriana officinalis L. and Passiflora incarnata L.",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Verbenae citriodorae folium",
+      "dutch_common_name": "Citroenverbena",
+      "botanical_name": "Aloysia citrodora Paláu (syn. Aloysia triphylla (L'Hér.) Kuntze; Verbena triphylla L'Hér.; Lippia citriodora Kunth)",
+      "therapeutic_area": ["Sleep disorders and temporary insomnia", "Mental stress and mood disorders", "Gastrointestinal disorders"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Verbasci flos",
+      "dutch_common_name": "Toortsbloem",
+      "botanical_name": "Verbascum thapsus L.; V. densiflorum Bertol. (V. thapsiforme Schrad); V. phlomoides L.",
+      "therapeutic_area": ["Mouth and throat disorders", "Cough and cold"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Violae herba cum flore",
+      "dutch_common_name": "Driekleurig viooltje",
+      "botanical_name": "Viola tricolor L.; Viola arvensis Murray (Gaud); Viola vulgaris Koch (Oborny)",
+      "therapeutic_area": ["Skin disorders and minor wounds"],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Visci albi herba",
+      "dutch_common_name": "Maretak",
+      "botanical_name": "Viscum album L.",
+      "therapeutic_area": [],
+      "ema_status": "F: Assessment finalised",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Vitis viniferae folium",
+      "dutch_common_name": "Wijnstokblad",
+      "botanical_name": "Vitis vinifera L.",
+      "therapeutic_area": ["Circulatory disorders"],
+      "ema_status": "C: ongoing call for scientific data",
+      "de_registered": true
+    },
+    {
+      "latin_name": "Withaniae somniferae radix",
+      "dutch_common_name": "Ashwagandha-wortel",
+      "botanical_name": "Withania somnifera (L.) Dunal",
+      "therapeutic_area": [],
+      "ema_status": "",
+      "de_registered": true
+    }
+  ]
+}
