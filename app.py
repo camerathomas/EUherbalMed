@@ -117,6 +117,15 @@ with col3:
     if st.button("Franse situatie", use_container_width=True):
         st.session_state.toon_frankrijk = not st.session_state.toon_frankrijk
 
+# Initialiseer session state voor de vierde knop (bovenaan, bij de andere keys)
+if "toon_vergelijking" not in st.session_state:
+    st.session_state.toon_vergelijking = False
+
+# In de kolommen-rij (pas de kolommen aan, bijvoorbeeld st.columns(4))
+with col4:
+    if st.button("Landenvergelijking", use_container_width=True):
+        st.session_state.toon_vergelijking = not st.session_state.toon_vergelijking
+
 
 # --- Waarom deze app? ---
 if st.session_state.toon_waarom:
@@ -187,6 +196,46 @@ Daarnaast noemt de ANSM in haar generieke geneesmiddelenrepertoire ook
         st.markdown(
             "🔗 [ANSM – La Pharmacopée française]"
             "(https://ansm.sante.fr/documents/reference/pharmacopee/la-pharmacopee-francaise)"
+        )
+
+# --- Landenvergelijking ---
+if st.session_state.toon_vergelijking:
+    with st.container(border=True):
+        st.markdown("### 🇳🇱 🇩🇪 🇫🇷 Vergelijking: Nederland, Duitsland en Frankrijk")
+        
+        st.markdown(
+            """
+In Nederland bestaat een wettelijk kader voor kruidengeneesmiddelen, maar het aanbod is 
+klein en overwegend gericht op zelfzorg (OTC). Het Farmacotherapeutisch Kompas vermeldt 
+slechts een selectie van 14 producten, terwijl het CBG in 2024 in totaal 81 handelsvergunningen 
+telde. Slechts een klein deel daarvan heeft een volledig wetenschappelijk dossier.
+
+In **Duitsland** is het aanbod veel breder. Naast de Europese routes kent men de nationale 
+**Standardzulassung**: een vereenvoudigde procedure voor gestandaardiseerde, onschadelijke 
+middelen (zoals kruidentheeën). Dit maakt het voor fabrikanten laagdrempelig om kruiden 
+als geneesmiddel op de markt te brengen.
+
+In **Frankrijk** is de **Pharmacopée française** het centrale kwaliteitsdocument. Medicinale 
+planten zijn vaak alleen via de apotheek verkrijgbaar, en een arts kan een magistrale 
+bereiding voorschrijven. Een klein aantal kruiden (zoals ginkgo, sint-janskruid en klimop) 
+heeft een volledige handelsvergunning (AMM) en is voorschriftwaardig.
+            """
+        )
+        
+        st.markdown("#### Argumenten uit de wetenschappelijke literatuur")
+        st.markdown(
+            """
+Naast de regelgevende verschillen worden in wetenschappelijke onderzoeken drie 
+belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
+
+1. **Kostenbesparing**: Kruidengeneesmiddelen zijn vaak goedkoper dan synthetische 
+   alternatieven, zowel in aankoop als in het verminderen van zorgkosten.
+2. **Alternatief bij medicijntekorten**: Wanneer synthetische middelen tijdelijk niet 
+   leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen een uitwijkmogelijkheid bieden.
+3. **Onderzoek naar bestaand gebruik**: Mensen gebruiken al veel kruiden. Het is zinvol 
+   om wetenschappelijk te onderzoeken of die bestaande praktijken daadwerkelijk werken, 
+   in plaats van ze bij voorbaat af te schrijven.
+            """
         )
 
 st.divider()
