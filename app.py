@@ -15,7 +15,7 @@ st.set_page_config(
 
 BASE_DIR = Path(__file__).parent
 DATA_FILE = BASE_DIR / "ema_herbal_medicines.json"
-INDICATIES_JSON = BASE_DIR / "planten_indicaties.json"
+INDICATIES_JSON = BASE_DIR / "de_registered.json"
 WAAROM_MD = BASE_DIR / "waarom_deze_app.md"
 
 
