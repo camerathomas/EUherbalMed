@@ -57,6 +57,15 @@ df["ema_status"] = df["ema_status"].fillna("Geen status").replace("", "Geen stat
 
 # Duitse registratie: overal "ja"
 df["de_registered"] = "ja"
+
+KOPNAMEN = {
+    "latin_name": "Latijnse naam",
+    "dutch_common_name": "Nederlandse naam",
+    "botanical_name": "Botanische naam",
+    "therapeutic_area": "Therapeutisch gebied",
+    "ema_status": "EMA-status",
+    "de_registered": "Gebruikt in Duitsland",
+}
 # ---------------------------------------------------------------------------
 # Zijbalk: zoekfunctie
 # ---------------------------------------------------------------------------
