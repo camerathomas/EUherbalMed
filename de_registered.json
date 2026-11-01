@@ -14,7 +14,7 @@
       "botanical_name": "Artemisia absinthium L.",
       "therapeutic_area": ["Loss of appetite", "Gastrointestinal disorders"],
       "ema_status": "C: ongoing call for scientific data",
-      "de_registered": true
+      "de_registered": false
     },
     {
       "latin_name": "Adhatodae vasicae folium",
