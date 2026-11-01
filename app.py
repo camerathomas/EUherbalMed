@@ -57,6 +57,31 @@ df["therapeutic_area_str"] = df["therapeutic_area"].apply(
     lambda x: ", ".join(x) if isinstance(x, list) else (x or "")
 )
 
+# --- Duitse data erbij laden ---
+INDICATIES_JSON = Path(__file__).parent / "planten_indicaties.json"
+
+@st.cache_data
+def load_duitse_data() -> list[dict]:
+    with open(INDICATIES_JSON, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+duitse_records = load_duitse_data()
+
+# Map op Latijnse naam (Duitse JSON gebruikt "Wirkstoff")
+duits_map = {}
+for rij in duitse_records:
+    latijn = str(rij.get("Wirkstoff", "")).strip().lower()
+    if latijn:
+        duits_map[latijn] = rij
+
+# Voeg de Duitse kolommen toe aan df
+df["Indicatie"] = df["latin_name"].apply(
+    lambda x: duits_map.get(str(x).strip().lower(), {}).get("Indicatie")
+)
+df["EMA_status"] = df["latin_name"].apply(
+    lambda x: duits_map.get(str(x).strip().lower(), {}).get("EMA_status")
+)
+
 
 # ---------------------------------------------------------------------------
 # Aanvulling: indicaties en EMA-status uit aparte JSON (veilig, zonder merge)
