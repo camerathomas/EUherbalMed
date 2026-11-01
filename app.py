@@ -225,16 +225,24 @@ heeft een volledige handelsvergunning (AMM) en is voorschriftwaardig.
         st.markdown("#### Argumenten uit de wetenschappelijke literatuur")
         st.markdown(
             """
-Naast de regelgevende verschillen worden in wetenschappelijke onderzoeken drie 
-belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
+Naast de regelgevende verschillen worden in wetenschappelijke onderzoeken 
+vier belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
 
-1. **Kostenbesparing**: Kruidengeneesmiddelen zijn vaak goedkoper dan synthetische 
-   alternatieven, zowel in aankoop als in het verminderen van zorgkosten.
-2. **Alternatief bij medicijntekorten**: Wanneer synthetische middelen tijdelijk niet 
-   leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen een uitwijkmogelijkheid bieden.
-3. **Onderzoek naar bestaand gebruik**: Mensen gebruiken al veel kruiden. Het is zinvol 
-   om wetenschappelijk te onderzoeken of die bestaande praktijken daadwerkelijk werken, 
-   in plaats van ze bij voorbaat af te schrijven.
+1. **Minder bijwerkingen en betere therapietrouw**: Veel patiënten ervaren 
+   minder bijwerkingen dan bij synthetische middelen. Dit verhoogt de 
+   therapietrouw en verlaagt de kans op vroegtijdig stoppen.
+2. **Minder zorgconsumptie (minder recidive)**: Doordat patiënten minder 
+   bijwerkingen hebben en de klachten vaker afnemen, is er minder kans op 
+   recidive (terugkeer van de klacht). Dit leidt tot minder herhaalconsulten 
+   en lagere kosten voor de zorg.
+3. **Kostenbesparing**: Kruidengeneesmiddelen zijn vaak goedkoper in aankoop 
+   en verminderen indirect de zorgkosten (zoals minder artsenbezoeken).
+4. **Alternatief bij medicijntekorten**: Wanneer synthetische middelen 
+   tijdelijk niet leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen 
+   een uitwijkmogelijkheid bieden.
+5. **Onderzoek naar bestaand gebruik**: Mensen gebruiken al veel kruiden. 
+   Het is zinvol om wetenschappelijk te onderzoeken of die bestaande 
+   praktijken daadwerkelijk werken, in plaats van ze bij voorbaat af te schrijven.
             """
         )
 
