@@ -263,7 +263,7 @@ vier belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
         )
         st.markdown(
             "🔗 [CBG Jaarverslag 2025](https://www.cbg-meb.nl/site/binaries/site-content/collections/documents/2026/04/16/jaarverslag-2025-werken-aan-vertrouwen-in-medicijnen/260416-cbg-jaarverslag-2025.pdf)  \n"
-            "🔗 [Vidal – Répertoire des génériques phytothérapie](https://www.vidal.fr/actualites/22455-repertoire-des-generiques-creation-d-un-repertoire-specifique-aux-medicaments-de-phytotherapie.html)"
+            "🔗 [CBG: Risico kruiden](https://www.cbg-meb.nl/onderwerpen/medicijnen/kruiden)"
         )
 
 st.divider()
