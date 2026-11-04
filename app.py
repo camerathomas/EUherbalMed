@@ -198,6 +198,7 @@ Daarnaast noemt de ANSM in haar generieke geneesmiddelenrepertoire ook
         st.markdown(
             "🔗 [ANSM – La Pharmacopée française]"
             "(https://ansm.sante.fr/documents/reference/pharmacopee/la-pharmacopee-francaise)"
+            "https://www.vidal.fr/actualites/22455-repertoire-des-generiques-creation-d-un-repertoire-specifique-aux-medicaments-de-phytotherapie.html"
         )
 
 # --- Landenvergelijking ---
