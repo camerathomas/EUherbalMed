@@ -222,6 +222,8 @@ planten zijn vaak alleen via de apotheek verkrijgbaar, en een arts kan een magis
 bereiding voorschrijven. Een klein aantal kruiden (zoals ginkgo, sint-janskruid en klimop) 
 heeft een volledige handelsvergunning (AMM) en is voorschriftwaardig.
 
+Nederland en Frankrijk benaderen dezelfde kruiden vanuit een verschillend perspectief. De Franse ANSM plaatst een selectie van kruiden, waaronder ginkgo, in een register van geneesmiddelen met een handelsvergunning. Het Nederlandse CBG benadrukt op zijn voorlichtingspagina juist de wisselwerkingen tussen kruiden en medicijnen, en wijst op het belang van overleg met arts of apotheker. Beide invalshoeken zijn relevant: een kruid kan een erkend geneesmiddel zijn én een interactierisico vormen. De vraag is welke van de twee perspectieven het beleid en de voorlichting in Nederland domineert.
+
 ## Conclusie voor Nederland
 Nederland heeft het wettelijke kader voor kruidengeneesmiddelen, maar de inbedding in richtlijnen, vergoeding en professionele praktijk ontbreekt. Duitsland en Frankrijk laten zien dat een duidelijk geneesmiddelenkader voor kruiden mogelijk is: Duitsland via laagdrempelige nationale toelatingen, Frankrijk via een expliciet register van kruidengeneesmiddelen met handelsvergunning. Nederland zou kunnen onderzoeken of een vergelijkbare erkenning van wetenschappelijk onderbouwde kruidengeneesmiddelen wenselijk is, bijvoorbeeld door:
 
@@ -257,6 +259,10 @@ vier belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
    Het is zinvol om wetenschappelijk te onderzoeken of die bestaande 
    praktijken daadwerkelijk werken, in plaats van ze bij voorbaat af te schrijven.
             """
+        )
+        st.markdown(
+            "🔗 [CBG Jaarverslag 2025](https://www.cbg-meb.nl/site/binaries/site-content/collections/documents/2026/04/16/jaarverslag-2025-werken-aan-vertrouwen-in-medicijnen/260416-cbg-jaarverslag-2025.pdf)  \n"
+            "🔗 [Vidal – Répertoire des génériques phytothérapie](https://www.vidal.fr/actualites/22455-repertoire-des-generiques-creation-d-un-repertoire-specifique-aux-medicaments-de-phytotherapie.html)"
         )
 
 st.divider()
