@@ -29,12 +29,7 @@ Kort gezegd heerst op dit punt spanning in Nederland:
 
 Naast 'traditional use' wil men met behulp van wetenschappelijke bronnen ook 'well-established use' toepassen voor kruidenproducten. Bij "well-established use" gaat het om voldoende wetenschappelijke gegevens uit bestaande literatuur, niet per se om nieuwe klinische studies zoals bij een nieuw farmaceutisch middel. Daarbij wordt op basis van wetenschappelijke literatuur beoordeeld of veiligheid, werking en dosering voldoende zijn onderbouwd, vergelijkbaar met de eisen die aan farmaceutische middelen worden gesteld.
 
-
-## Supplement of medicijn?
-
-Het is aan landen in de EU zelf om te bepalen of een kruid een supplement is, zoals in Nederland veel kruiden als supplement worden verkocht, of dat een selectie van kruiden het label medicijn kan krijgen, zoals bijvoorbeeld in Duitsland en Frankrijk het geval is. Met dat label kan een kruid in principe door artsen worden voorgeschreven; of dat ook gebeurt en of het vergoed wordt, verschilt per land en per product. Voorstanders noemen medische, maatschappelijke en financiële redenen om deze statusverandering wenselijk te achten.
 ---
-
 
 *Deze app is informatief en vervangt geen medisch advies. Raadpleeg bij klachten altijd een arts of apotheker. Sommige plantaardige middelen kunnen interacties geven met andere geneesmiddelen.*
 
