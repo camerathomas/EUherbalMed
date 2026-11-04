@@ -221,6 +221,16 @@ In **Frankrijk** is de **Pharmacopée française** het centrale kwaliteitsdocume
 planten zijn vaak alleen via de apotheek verkrijgbaar, en een arts kan een magistrale 
 bereiding voorschrijven. Een klein aantal kruiden (zoals ginkgo, sint-janskruid en klimop) 
 heeft een volledige handelsvergunning (AMM) en is voorschriftwaardig.
+
+Nederland heeft het wettelijke kader voor kruidengeneesmiddelen, maar de inbedding in richtlijnen, vergoeding en professionele praktijk ontbreekt. Duitsland en Frankrijk laten zien dat een duidelijk geneesmiddelenkader voor kruiden mogelijk is: Duitsland via laagdrempelige nationale toelatingen, Frankrijk via een expliciet register van kruidengeneesmiddelen met handelsvergunning. Nederland zou kunnen onderzoeken of een vergelijkbare erkenning van wetenschappelijk onderbouwde kruidengeneesmiddelen wenselijk is, bijvoorbeeld door:
+
+te stimuleren dat fabrikanten de 'well-established use'-route vaker benutten;
+
+te verkennen of een selectie van deze middelen in het Farmacotherapeutisch Kompas kan worden opgenomen als behandeloptie;
+
+te onderzoeken of vergoeding via aanvullende verzekeringen duidelijker kan worden gekoppeld aan geregistreerde kruidengeneesmiddelen (niet alleen homeopathisch/antroposofisch).
+
+Daarbij hoort de eerlijke kanttekening dat toegelaten niet hetzelfde is als voorschriftwaardig, en dat vergoeding een aparte politieke keuze is. Het doel is niet "meer kruiden voorschrijven", maar duidelijkheid scheppen over welke kruiden wetenschappelijk onderbouwd zijn en hoe die een plaats kunnen krijgen in de reguliere zorg.
             """
         )
         
