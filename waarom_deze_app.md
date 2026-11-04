@@ -9,6 +9,7 @@ De app is geen medisch advies. Ze is bedoeld om mensen aan het denken te zetten.
 Wat we beogen: meer draagvlak voor een zorgvuldige inzet van plantaardige geneesmiddelen, meer vertrouwen in de arts die ze voorschrijft, en op termijn minder werkdruk in de sector en lagere kosten. Dat zijn verwachtingen, geen beloftes.
 
 ## Mag een arts kruidengeneesmiddelen voorschrijven?
+
 Hier ligt een belangrijk onderscheid. Juridisch gezien mag een arts een geregistreerd kruidengeneesmiddel voorschrijven, net als elk ander geregistreerd geneesmiddel. De Geneesmiddelenwet maakt daarbij geen onderscheid tussen "gewone" geneesmiddelen en kruidengeneesmiddelen als het gaat om de bevoegdheid van de voorschrijver.
 
 Professioneel ligt het anders. Huisartsen worden geacht volgens de landelijke wetenschappelijke richtlijnen voor te schrijven, zoals de NHG-standaarden en het Farmacotherapeutisch Kompas. Kruidengeneesmiddelen staan daar vrijwel niet in als behandeladvies. Het Farmacotherapeutisch Kompas bevat wel een aparte groepstekst over kruidenmiddelen, maar die gaat vooral over wat ze zijn, bijwerkingen en interacties, niet over "bij indicatie X: kies kruid Y". Een arts die een kruidengeneesmiddel voorschrijft, wijkt dus af van de professionele standaard. Dat mag, maar het is niet de norm.
@@ -22,9 +23,11 @@ Kort gezegd heerst op dit punt spanning in Nederland:
 2. Professioneel mogen: het past binnen de geldende richtlijnen en standaarden. → Nee, het staat niet in de richtlijnen, dus het is geen standaardhandeling.
 
 ## Wat de EMA onderzoekt
+
 Hieronder een link naar de EMA-pagina met wetenschappelijke richtlijnen voor kruidengeneesmiddelen. Naast 'traditional use' wil men met behulp van wetenschappelijke bronnen ook 'well-established use' toepassen voor kruidenproducten. Bij "well-established use" gaat het om voldoende wetenschappelijke gegevens uit bestaande literatuur, niet per se om nieuwe klinische studies zoals bij een nieuw farmaceutisch middel. Daarbij wordt op basis van wetenschappelijke literatuur beoordeeld of veiligheid, werking en dosering voldoende zijn onderbouwd, vergelijkbaar met de eisen die aan farmaceutische middelen worden gesteld.
 
 ## Supplement of medicijn?
+
 Het is aan landen in de EU zelf om te bepalen of een kruid een supplement is, zoals in Nederland veel kruiden als supplement worden verkocht, of dat een selectie van kruiden het label medicijn kan krijgen, zoals bijvoorbeeld in Duitsland en Frankrijk het geval is. Met dat label kan een kruid in principe door artsen worden voorgeschreven; of dat ook gebeurt en of het vergoed wordt, verschilt per land en per product. Voorstanders noemen medische, maatschappelijke en financiële redenen om deze statusverandering wenselijk te achten. 
 ---
 
