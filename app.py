@@ -178,6 +178,8 @@ referentiedocument. Hierin staan de nationale monografieën voor medicinale
 planten. De ANSM publiceert daarnaast lijsten van traditioneel gebruikte
 medicinale planten (Lijst A) en planten met grotere risico's (Lijst B).
 
+In Frankrijk heeft de ANSM een apart generiekengroepenregister voor fytotherapie ingesteld. Daarin staan negen groepen, gebaseerd op zes planten: ginkgo, ispaghul, klimop, sint-janskruid, senne en rode wijnstok. Het gaat om geneesmiddelen met een handelsvergunning (AMM), die de ANSM expliciet onderscheidt van supplementen en medische hulpmiddelen. Traditionele kruidengeneesmiddelen zonder AMM vallen buiten dit register. Frankrijk laat daarmee zien dat het mogelijk is om kruidengeneesmiddelen een duidelijk eigen kader te geven binnen het reguliere geneesmiddelenrecht.
+
 De meeste plantaardige producten in Frankrijk zijn **voedingssupplementen**.
 Een klein aantal kruiden is echter als **geregistreerd geneesmiddel (AMM)**
 toegelaten. Voorbeelden die de ANSM noemt:
