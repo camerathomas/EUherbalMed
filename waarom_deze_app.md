@@ -1,4 +1,4 @@
-# Waarom deze app?
+## Waarom deze app?
 
 Plantaardige geneesmiddelen worden door grote groepen mensen gebruikt, en de belangstelling ervoor groeit. Toch is de informatie erover versnipperd: de ene plant is in Duitsland volledig toegelaten, de andere alleen traditioneel geregistreerd, en van weer een andere loopt de Europese beoordeling nog. Deze app brengt die lagen bij elkaar.
 
