@@ -222,6 +222,7 @@ planten zijn vaak alleen via de apotheek verkrijgbaar, en een arts kan een magis
 bereiding voorschrijven. Een klein aantal kruiden (zoals ginkgo, sint-janskruid en klimop) 
 heeft een volledige handelsvergunning (AMM) en is voorschriftwaardig.
 
+## Risico of medicijn?
 Nederland en Frankrijk benaderen dezelfde kruiden vanuit een verschillend perspectief. De Franse ANSM plaatst een selectie van kruiden, waaronder ginkgo, in een register van geneesmiddelen met een handelsvergunning. Het Nederlandse CBG benadrukt op zijn voorlichtingspagina juist de wisselwerkingen tussen kruiden en medicijnen, en wijst op het belang van overleg met arts of apotheker. Beide invalshoeken zijn relevant: een kruid kan een erkend geneesmiddel zijn én een interactierisico vormen. De vraag is welke van de twee perspectieven het beleid en de voorlichting in Nederland domineert.
 
 ## Conclusie voor Nederland
