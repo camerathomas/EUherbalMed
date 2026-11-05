@@ -249,13 +249,10 @@ belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
    bijwerkingen hebben, is er minder kans op terugkeer van de klacht. Dit leidt tot minder herhaalconsulten 
    en lagere kosten voor de zorg. Dit mechanisme is weliswaar in specifieke gevallen gebleken, maar kan nog niet als algemeen feit worden neergezet, bij gebrek aan onderzoek.
 3. **Kostenbesparing**: Kruidengeneesmiddelen zijn vaak goedkoper en verminderen mogelijkerwijs de zorgkosten.
-4. **Alternatief bij medicijntekorten**: Wanneer synthetische middelen 
-   tijdelijk niet leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen 
-   een uitwijkmogelijkheid bieden. Een medicinale kruidentuin kan zelfs een voorbereiding op een logistieke crisis zijn.
-5. **Onderzoek naar bestaand gebruik**: Mensen gebruiken al veel kruiden. 
+4. **Onderzoek naar bestaand gebruik**: Mensen gebruiken al veel kruiden. 
    Het is zinvol om wetenschappelijk te onderzoeken of die bestaande 
    praktijken daadwerkelijk werken, in plaats van ze bij voorbaat af te schrijven.
-6. **Onderzoek naar bestaand gebruik**: Alternatief bij medicijntekorten: Wanneer synthetische middelen tijdelijk niet leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen een uitwijkmogelijkheid bieden, mits veiligheid en interacties zijn gecheckt. In scenario's van langdurige logistieke verstoring, bijvoorbeeld bij rampen of oorlogen, zou een medicinale kruidentuin als fysieke buffer van gedocumenteerde medicinale planten kunnen bijdragen aan de weerbaarheid van de zorg. Dit is een verkenning, geen bestaand beleid en geen bewezen oplossing: het vereist afspraken over kwaliteit, dosering, toelating en verantwoordelijkheid.  
+5. **Alternatief bij medicijntekorten**: Wanneer synthetische middelen tijdelijk niet leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen een uitwijkmogelijkheid bieden, (mits veiligheid en interacties zijn gecheckt). In scenario's van langdurige logistieke verstoring, bijvoorbeeld bij rampen of oorlogen, zou een medicinale kruidentuin als fysieke buffer van gedocumenteerde medicinale planten kunnen bijdragen aan de weerbaarheid van de zorg. Dit is een verkenning, geen bestaand beleid en geen bewezen oplossing: het vereist afspraken over kwaliteit, dosering, toelating en verantwoordelijkheid.  
             """
         )
         st.markdown(
