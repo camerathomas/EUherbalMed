@@ -220,7 +220,7 @@ als geneesmiddel op de markt te brengen.
 In **Frankrijk** is de **Pharmacopée française** het centrale kwaliteitsdocument. Medicinale 
 planten zijn vaak alleen via de apotheek verkrijgbaar, en een arts kan een magistrale 
 bereiding voorschrijven. Een klein aantal kruiden (zoals ginkgo, sint-janskruid en klimop) 
-heeft een volledige handelsvergunning (AMM) en is voorschriftwaardig.
+heeft een volledige handelsvergunning (AMM) en is daarmee een erkend geneesmiddel, expliciet onderscheiden van supplementen.
 
 ## Risico of medicijn?
 Nederland en Frankrijk benaderen dezelfde kruiden vanuit een verschillend perspectief. De Franse ANSM plaatst een selectie van kruiden, waaronder ginkgo, in een register van geneesmiddelen met een handelsvergunning. Het Nederlandse CBG benadrukt op zijn voorlichtingspagina juist de wisselwerkingen tussen kruiden en medicijnen, en wijst op het belang van overleg met arts of apotheker. Beide invalshoeken zijn relevant: een kruid kan een erkend geneesmiddel zijn én een interactierisico vormen. De vraag is welke van de twee perspectieven het beleid en de voorlichting in Nederland domineert.
@@ -242,23 +242,20 @@ Daarbij hoort de eerlijke kanttekening dat toegelaten niet hetzelfde is als voor
         st.markdown(
             """
 Naast de regelgevende verschillen worden in wetenschappelijke onderzoeken 
-vier belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
+belangrijke argumenten genoemd om kruidengeneesmiddelen serieus te nemen:
 
-1. **Minder bijwerkingen en betere therapietrouw**: Veel patiënten ervaren 
-   minder bijwerkingen dan bij synthetische middelen. Dit verhoogt de 
-   therapietrouw en verlaagt de kans op vroegtijdig stoppen.
+1. **Minder bijwerkingen en betere therapietrouw**: In sommige onderzoeken worden bij bepaalde kruidengeneesmiddelen minder bijwerkingen gerapporteerd dan bij synthetische alternatieven. Dat kan de therapietrouw bevorderen. Dit geldt niet voor alle kruiden en alle indicaties.
 2. **Minder zorgconsumptie (minder recidive)**: Doordat patiënten minder 
-   bijwerkingen hebben en de klachten vaker afnemen, is er minder kans op 
-   recidive (terugkeer van de klacht). Dit leidt tot minder herhaalconsulten 
-   en lagere kosten voor de zorg.
-3. **Kostenbesparing**: Kruidengeneesmiddelen zijn vaak goedkoper in aankoop 
-   en verminderen indirect de zorgkosten (zoals minder artsenbezoeken).
+   bijwerkingen hebben, is er minder kans op terugkeer van de klacht. Dit leidt tot minder herhaalconsulten 
+   en lagere kosten voor de zorg. Dit mechanisme is weliswaar in specifieke gevallen gebleken, maar kan nog niet als algemeen feit worden neergezet, bij gebrek aan onderzoek.
+3. **Kostenbesparing**: Kruidengeneesmiddelen zijn vaak goedkoper en verminderen mogelijkerwijs de zorgkosten.
 4. **Alternatief bij medicijntekorten**: Wanneer synthetische middelen 
    tijdelijk niet leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen 
-   een uitwijkmogelijkheid bieden.
+   een uitwijkmogelijkheid bieden. Een medicinale kruidentuin kan zelfs een voorbereiding op een logistieke crisis zijn.
 5. **Onderzoek naar bestaand gebruik**: Mensen gebruiken al veel kruiden. 
    Het is zinvol om wetenschappelijk te onderzoeken of die bestaande 
    praktijken daadwerkelijk werken, in plaats van ze bij voorbaat af te schrijven.
+6. **Onderzoek naar bestaand gebruik**: Alternatief bij medicijntekorten: Wanneer synthetische middelen tijdelijk niet leverbaar zijn, kunnen geregistreerde kruidengeneesmiddelen een uitwijkmogelijkheid bieden, mits veiligheid en interacties zijn gecheckt. In scenario's van langdurige logistieke verstoring, bijvoorbeeld bij rampen of oorlogen, zou een medicinale kruidentuin als fysieke buffer van gedocumenteerde medicinale planten kunnen bijdragen aan de weerbaarheid van de zorg. Dit is een verkenning, geen bestaand beleid en geen bewezen oplossing: het vereist afspraken over kwaliteit, dosering, toelating en verantwoordelijkheid.  
             """
         )
         st.markdown(
